@@ -1,3 +1,8 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 header #navbar {
   background-color: #0c1315;
   width: 100%;
@@ -20,10 +25,29 @@ header #navbar .nav-menu .menu {
   list-style: none;
   gap: 35px;
 }
+header #navbar .nav-menu .menu li {
+  position: relative;
+}
 header #navbar .nav-menu .menu li a {
   color: white;
   text-decoration: none;
   font-size: 14px;
+  position: relative;
+}
+header #navbar .nav-menu .menu li a i {
+  transition: 0.3s all;
+  color: #fff;
+  font-size: 5px;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+}
+header #navbar .nav-menu .menu li a:hover i {
+  opacity: 1;
+  transform: translateX(-5px);
+}
+header #navbar .nav-menu .menu li a:hover {
+  transform: translateX(5px);
 }
 header #navbar .icons {
   color: #fff;
@@ -35,32 +59,14 @@ header #navbar .icons {
   cursor: pointer;
 }
 
-#slider body {
-  position: relative;
-  height: 100%;
+#slider {
+  height: 100vh;
 }
-#slider body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-#slider .swiper {
+#slider .slider .slider-img {
   width: 100%;
   height: 100%;
 }
-#slider .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#slider .swiper-slide img {
-  display: block;
+#slider .slider .slider-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -79,7 +85,6 @@ header #navbar .icons {
   line-height: 1.30952em;
   word-wrap: break-word;
   margin-top: 7rem;
-  margin-left: -25px;
 }
 #advertising p {
   margin-top: 7rem;
@@ -110,11 +115,156 @@ header #navbar .icons {
 
 #car-rez {
   background-color: #141A1C;
+  height: 1500px;
 }
 #car-rez .car-img {
-  width: 405.66px;
+  width: 416.66px;
   height: 573.4px;
+  margin-top: 5rem;
 }
 #car-rez .car-img img {
   width: 100%;
+}
+#car-rez .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#car-rez .content h5 {
+  color: #fff;
+  font-size: 22px;
+}
+
+#comfort {
+  background-color: #0B1112;
+  height: 296px;
+}
+#comfort h2 {
+  font-size: 42px;
+  padding-top: 5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+#comfort span {
+  color: #bfa37c;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+}
+#comfort .line {
+  border: 0.25px solid #404040;
+  border-color: #262D33;
+  border-bottom-width: 1px;
+  margin: 15px 0;
+}
+
+#support {
+  background-color: #0B1112;
+  height: 308px;
+  display: flex;
+  justify-content: flex-end;
+}
+#support .widget {
+  padding: 0% 0% 0% 46.5%;
+}
+#support .widget h5 {
+  font-size: 22px;
+}
+#support .widget p {
+  color: #A6A6A6;
+}
+
+#guarantee {
+  background-color: #141A1C;
+  height: 660px;
+}
+#guarantee .widget {
+  margin-top: 7rem;
+}
+#guarantee .widget h3 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.34286em;
+  font-family: "Times New Roman", Times, serif;
+}
+#guarantee .widget span {
+  color: #bfa37c;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+}
+#guarantee .widget p {
+  margin-top: 30px;
+  color: #A6A6A6;
+  font-size: 18px;
+  width: 86%;
+}
+#guarantee .car-img {
+  width: 309.71px;
+  height: 541.96px;
+  margin: 40px 0;
+}
+#guarantee .car-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#fav-car .image {
+  height: 644px;
+}
+#fav-car .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#team {
+  background-color: #141A1C;
+  padding-top: 5rem;
+  height: 820px;
+}
+#team .title h2 {
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+}
+#team .title span {
+  color: #bfa37c;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+}
+#team .title .line {
+  border: 0.25px solid #404040;
+  border-color: #262D33;
+  border-bottom-width: 1px;
+  margin: 15px 0;
+}
+#team .persons {
+  padding: 0% 0% 0% 25.8%;
+}
+#team .persons .person-img {
+  width: 305.5px;
+  height: 449.44px;
+  margin: 20px 0;
+}
+#team .persons .person-img img {
+  width: 100%;
+  height: 100%;
+}
+#team .persons .content h5 {
+  font-size: 22px;
+}
+#team .persons .content .icon span {
+  font-family: Inconsolata, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #bfa37c;
+  margin-left: 12px;
 }/*# sourceMappingURL=home.css.map */

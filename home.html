@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LuxeDrive</title>
+    <link rel="stylesheet" href="./assets/slick/slick.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/home/home.css">
@@ -100,11 +101,11 @@
                         <div class="nav-menu">
 
                             <ul class="menu">
-                                <li><a href="">HOME</a></li>
-                                <li><a href="">ABOUT</a></li>
-                                <li><a href="">SHOP</a></li>
-                                <li><a href="">CONTACT</a></li>
-                                <li><a href="">BLOG</a></li>
+                                <li><a href=""><i class="fa-solid fa-circle"></i>HOME</a></li>
+                                <li><a href=""><i class="fa-solid fa-circle"></i>ABOUT</a></li>
+                                <li><a href=""><i class="fa-solid fa-circle"></i>SHOP</a></li>
+                                <li><a href=""><i class="fa-solid fa-circle"></i>CONTACT</a></li>
+                                <li><a href=""><i class="fa-solid fa-circle"></i>BLOG</a></li>
                             </ul>
                         </div>
 
@@ -136,16 +137,20 @@
 
         <section id="slider">
 
-
-            
-
-            <div class="swiper mySwiper">
+            <!-- <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="./assets/img/slider1.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="./assets/img/slider2.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="./assets/img/slider3.jpg" alt=""></div>
                     <div class="swiper-slide"><img src="./assets/img/x5.JPG" alt=""></div>
                 </div>
+            </div> -->
+
+            <div class="slider">
+                <div class="slider-img"><img src="./assets/img/slider1.jpg" alt=""></div>
+                <div class="slider-img"><img src="./assets/img/slider2.jpg" alt=""></div>
+                <div class="slider-img"><img src="./assets/img/slider3.jpg" alt=""></div>
+                <!-- <div class="slider-img"><img src="" alt=""></div>   -->
             </div>
 
         </section>
@@ -166,7 +171,10 @@
                     <div class="col-6">
 
                         <div class="widget">
-                            <p>Vivamus arcu felis bibendum ut tristique et egestas. Ultricies leo intege in malesuada nunc vel risus commodo. Sapien nec sagittis aliquam male bibendum arcu vitae. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Fringilla est ullamcorper eget nulla facilisi nul.</p>
+                            <p>Vivamus arcu felis bibendum ut tristique et egestas. Ultricies leo intege in malesuada
+                                nunc vel risus commodo. Sapien nec sagittis aliquam male bibendum arcu vitae. In ornare
+                                quam viverra orci sagittis eu volutpat odio facilisis. Fringilla est ullamcorper eget
+                                nulla facilisi nul.</p>
                         </div>
 
                         <div class="call-center d-flex">
@@ -174,16 +182,16 @@
                             <div class="earphone">
                                 <img src="./assets/img/earphone.png" alt="">
                             </div>
-    
+
                             <div class="call-number">
                                 <a href=""> CALL CENTER: +1234 5678 901</a>
                             </div>
 
                         </div>
 
-                        
+
                     </div>
-                    
+
 
                 </div>
 
@@ -191,10 +199,10 @@
 
         </section>
 
-        
+
         <section id="car-rez">
 
-            <div class="container">
+            <div class="container car-container">
 
                 <div class="row">
 
@@ -204,6 +212,21 @@
                             <img src="./assets/img/car1.jpg" alt="">
                         </div>
 
+                        <div class="content">
+
+                            <h5>Mercedes G-Class Brabus</h5>
+
+                            <!-- <div class="star-icon">
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                            </div> -->
+
+
+                        </div>
+
                     </div>
 
                     <div class="col-4">
@@ -211,7 +234,23 @@
                         <div class="car-img">
                             <img src="./assets/img/car2.jpg" alt="">
                         </div>
-                        
+
+                        <div class="content">
+
+                            <h5>Aston Martin DB9</h5>
+
+                            <!-- <div class="star-icon">
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                            </div> -->
+
+
+                        </div>
+
+
                     </div>
 
                     <div class="col-4">
@@ -219,7 +258,92 @@
                         <div class="car-img">
                             <img src="./assets/img/car3.jpg" alt="">
                         </div>
-                        
+
+                        <div class="content">
+
+                            <h5>Rolls Royce Phantom</h5>
+
+                            <!-- <div class="star-icon">
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                            </div> -->
+
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-4">
+
+                        <div class="car-img">
+                            <img src="./assets/img/car4.jpg" alt="">
+                        </div>
+
+                        <div class="content">
+
+                            <h5>Bmw M4 G82 </h5>
+
+                            <!-- <div class="star-icon">
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                            </div> -->
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-4">
+
+                        <div class="car-img">
+                            <img src="./assets/img/car5.jpg" alt="">
+                        </div>
+
+                        <div class="content">
+
+                            <h5>Mercedes G-Class</h5>
+
+                            <!-- <div class="star-icon">
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                            </div> -->
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-4">
+
+                        <div class="car-img">
+                            <img src="./assets/img/car6.jpg" alt="">
+                        </div>
+
+                        <div class="content">
+
+                            <h5>Nissan Gtr</h5>
+
+                            <!-- <div class="star-icon">
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                                <i class="fa-solid fa-star" style="color: #bfa37c;"></i>
+                            </div> -->
+
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -228,8 +352,277 @@
 
         </section>
 
+
+
+        <section id="comfort">
+
+            <div class="container">
+
+                <h2 style="color: #fff;" class="title">
+                    Ride To Destinations
+                    <br>
+                    With Maximum Comfort
+                </h2>
+
+                <span>finest transport</span>
+
+                <div class="line">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="support">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-6">
+
+                        <div class="widget">
+
+                            <h5 style="color: #fff;">No Delays</h5>
+
+                            <p>Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in posuere urna.
+                                Faucibus turpis in eun mi bibendum.
+
+                            </p>
+
+                        </div>
+
+                        <div class="widget">
+
+                            <h5 style="color: #fff;">Premium Support</h5>
+
+                            <p>Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in posuere urna.
+                                Faucibus turpis in eun mi bibendum.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <div class="widget">
+
+                            <h5 style="color: #fff;">High Quality</h5>
+
+                            <p>Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in posuere urna.
+                                Faucibus turpis in eun mi bibendum.
+
+                            </p>
+
+                        </div>
+
+                        <div class="widget">
+
+                            <h5 style="color: #fff;">A Diverse Selection</h5>
+
+                            <p>Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in posuere urna.
+                                Faucibus turpis in eun mi bibendum.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="guarantee">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-6">
+
+                        <div class="widget">
+
+                            <h3>
+                                We Care Of Your Safety
+                                <br>
+                                And Convenience
+                            </h3>
+
+                            <span>Premium drivers</span>
+
+                            <p>Facilisi cras fermentum odio eu feugiat. In fermentum et sollicitudin ac ori accumsan sit
+                                amet nulla facilisi morbi tempus iaculis urna id. Aenean euismod elementum nisi quis
+                                eleifend quam adipiscing vitae dipiscing.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6">
+
+                        <div class="row">
+
+                            <div class="col-6">
+
+                                <div class="car-img">
+
+                                    <img src="./assets/img/rolls royce.jpg" alt="">
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-6">
+
+                                <div class="car-img">
+
+                                    <img src="./assets/img/lamborghini.jpg" alt="">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="fav-car">
+
+            <div class="image">
+                <img src="./assets/img/gtr.jpg" alt="">
+            </div>
+
+        </section>
+
+
+        <section id="team">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="title">
+
+                        <h2 style="color: #fff;">Our Proffesional Chauffeurs</h2>
+
+                        <span>Meet or team</span>
+
+                        <div class="line">
+
+                        </div>
+
+                    </div>
+
+                    <div class="persons">
+
+                        <div class="row">
+
+                            <div class="col-4">
+
+                                <div class="person-img">
+                                    <img src="./assets/img/person1.jpg" alt="">
+                                </div>
+
+                                <div class="content">
+
+                                    <h5 style="color: #fff;">
+                                        Marco Watkivi
+                                    </h5>
+
+                                    <div class="icon">
+                                        <i class="fa-solid fa-phone " style="color: #bfa37c;"></i>
+                                        <span>+1234 5678 901</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-4">
+
+                                <div class="person-img">
+                                    <img src="./assets/img/person2.jpg" alt="">
+                                </div>
+
+                                <div class="content">
+
+                                    <h5 style="color: #fff;">
+                                        Marily Sulli
+                                    </h5>
+
+                                    <div class="icon">
+                                        <i class="fa-solid fa-phone " style="color: #bfa37c;"></i>
+                                        <span>+2345 6789 012</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-4">
+
+                                <div class="person-img">
+                                    <img src="./assets/img/person3.jpg" alt="">
+                                </div>
+
+                                <div class="content">
+
+                                    <h5 style="color: #fff;">
+                                        Zakary Tapun
+                                    </h5>
+
+                                    <div class="icon">
+                                        <i class="fa-solid fa-phone " style="color: #bfa37c;"></i>
+                                        <span>+3456 7890 123</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
     </main>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/09a7df35a3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
