@@ -2,15 +2,16 @@
 
 #slider {
 
-    height: 100vh;
-   
+    // height: 100vh;
 
-    .slider{
-      
-        .slider-img{
+
+    .slider {
+
+        .slider-img {
             width: 100%;
             height: 100%;
-            img{
+
+            img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -55,27 +56,34 @@
 
 }
 
-#advertising {
+
+#car-rez {
 
     background-color: #141A1C;
-    height: 315px;
+    height: 1770px;
 
-    h2 {
-        color: #fff;
-        font-weight: 400;
-        font-size: 42px;
-        font-family: 'Courier New', Courier, monospace;
-        line-height: 1.30952em;
-        word-wrap: break-word;
-        margin-top: 7rem;
-        // margin-left: -25px;
+    .title {
+        h2 {
+            color: #fff;
+            font-weight: 400;
+            font-size: 42px;
+            font-family: 'Courier New', Courier, monospace;
+            // font-family: 'Times New Roman', Times, serif;
+            line-height: 1.30952em;
+            word-wrap: break-word;
+            margin-top: 7rem;
+            // margin-left: -25px;
+        }
     }
 
-    p {
-        margin-top: 7rem;
-        color: #A6A6A6;
-        margin-left: 80px;
+    .widget {
+        p {
+            margin-top: 7rem;
+            color: #A6A6A6;
+            margin-left: 80px;
+        }
     }
+
 
     .call-center {
 
@@ -111,14 +119,6 @@
         }
     }
 
-
-}
-
-#car-rez {
-
-    background-color: #141A1C;
-    height: 1500px;
-
     // .car-container{
     //     max-width: 1380px !important;
     // }
@@ -145,21 +145,31 @@
     }
 }
 
+
 #comfort {
     background-color: #0B1112;
-    height: 296px;
+    // height: 600px;
+    display: flex;
+    justify-content: flex-end;
 
-    h2 {
-        font-size: 42px;
-        padding-top: 5rem;
-        font-family: 'Times New Roman', Times, serif;
+    .title {
+        h2 {
+            font-size: 42px;
+            padding-top: 5rem;
+            font-family: 'Times New Roman', Times, serif;
+            color: #fff;
+        }
     }
 
-    span {
-        color: #bfa37c;
-        text-transform: uppercase;
-        letter-spacing: .25em;
-        font-size: 14px;
+    .subtitle {
+        span {
+            color: #bfa37c;
+            text-transform: uppercase;
+            letter-spacing: .25em;
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
     }
 
     .line {
@@ -174,28 +184,27 @@
         margin: 15px 0;
     }
 
-}
-
-#support {
-    background-color: #0B1112;
-    height: 308px;
-    display: flex;
-    justify-content: flex-end;
 
     .widget {
+
 
         padding: 0% 0% 0% 46.5%;
 
         h5 {
             font-size: 22px;
+            margin: 13px 0;
         }
 
         p {
             // margin-top: 9px;
             color: #A6A6A6;
+            margin-bottom: 60px;
         }
     }
+
 }
+
+
 
 #guarantee {
 
@@ -218,6 +227,7 @@
             text-transform: uppercase;
             letter-spacing: .25em;
             font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
         }
 
         p {
@@ -258,7 +268,8 @@
 
 
 #team {
-    background-color: #141A1C;
+    // background-color: #141A1C;
+    background-color: #0B1112;
     padding-top: 5rem;
     height: 820px;
 
@@ -273,6 +284,8 @@
             text-transform: uppercase;
             letter-spacing: .25em;
             font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+
         }
 
         .line {
@@ -307,7 +320,7 @@
         .content {
 
 
-            h5{
+            h5 {
                 font-size: 22px;
             }
 
@@ -329,9 +342,126 @@
 
     }
 
+}
 
 
+#best-possibilities {
+
+    background-color: #0B1112;
+    height: 600px;
+
+    .title {
+
+        h2 {
+            color: #fff;
+            font-size: 42px;
+        }
+    }
+
+    .subtitle {
+        span {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: .25em;
+            text-transform: uppercase;
+            display: inline-flex;
+            vertical-align: middle;
+            flex-wrap: wrap;
+            color: #bfa37c;
+        }
+    }
+
+    .line {
+        border: 0.25px solid #404040;
+        border-color: #262D33;
+        border-bottom-width: 1px;
+        margin: 15px 0;
+    }
+
+    .information {
+
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        padding: 42px 0 56px 16.5%;
+        border-bottom: 1px solid #262d33;
+
+        .car-img {
+            img {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .title-price-wrapper {
+            display: flex;
+            flex-direction: column;
+            // z-index: 1;
+
+            .title {
+                h4 {
+                    font-size: 28px;
+                    color: #fff;
+                }
+            }
 
 
+            .price-info {
+
+                display: flex;
+                margin: 0;
+                line-height: 1;
+                justify-content: center;
+                align-items: flex-end;
+
+                span {
+                    color: #a6a6a6;
+                }
+
+                .price-inner {
+                    display: flex;
+                    flex-direction: row-reverse;
+
+                    .value {
+                        font-size: 55px;
+                    }
+
+                    .currency {
+                        font-size: 25px;
+                    }
+
+                    span {
+                        color: #bfa37c;
+                        ;
+                    }
+
+                }
+
+
+                .price-period {
+                    color: #bfa37c;
+                    font-size: 20px;
+                }
+
+            }
+
+        }
+
+
+        .content {
+            ul {
+                list-style: none;
+
+                li {
+
+                    color: #a6a6a6;
+                    margin-bottom: 10px;
+
+                }
+            }
+        }
+
+    }
 
 }

@@ -6,7 +6,7 @@ header {
 header #navbar {
   background-color: #0c1315;
   width: 100%;
-  height: 80px;
+  height: 77.7px;
   display: flex;
   align-items: center;
 }
@@ -59,9 +59,6 @@ header #navbar .icons {
   cursor: pointer;
 }
 
-#slider {
-  height: 100vh;
-}
 #slider .slider .slider-img {
   width: 100%;
   height: 100%;
@@ -73,11 +70,11 @@ header #navbar .icons {
      object-fit: cover;
 }
 
-#advertising {
+#car-rez {
   background-color: #141A1C;
-  height: 315px;
+  height: 1770px;
 }
-#advertising h2 {
+#car-rez .title h2 {
   color: #fff;
   font-weight: 400;
   font-size: 42px;
@@ -86,36 +83,31 @@ header #navbar .icons {
   word-wrap: break-word;
   margin-top: 7rem;
 }
-#advertising p {
+#car-rez .widget p {
   margin-top: 7rem;
   color: #A6A6A6;
   margin-left: 80px;
 }
-#advertising .call-center {
+#car-rez .call-center {
   display: flex;
   align-items: center;
 }
-#advertising .call-center .earphone {
+#car-rez .call-center .earphone {
   width: 45px;
   height: 50px;
   margin-left: 80px;
   margin-right: 19px;
 }
-#advertising .call-center .earphone img {
+#car-rez .call-center .earphone img {
   width: 100%;
 }
-#advertising .call-center .call-number a {
+#car-rez .call-center .call-number a {
   text-decoration: none;
   color: #bfa37c;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.25em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-#car-rez {
-  background-color: #141A1C;
-  height: 1500px;
 }
 #car-rez .car-img {
   width: 416.66px;
@@ -137,18 +129,21 @@ header #navbar .icons {
 
 #comfort {
   background-color: #0B1112;
-  height: 296px;
+  display: flex;
+  justify-content: flex-end;
 }
-#comfort h2 {
+#comfort .title h2 {
   font-size: 42px;
   padding-top: 5rem;
   font-family: "Times New Roman", Times, serif;
+  color: #fff;
 }
-#comfort span {
+#comfort .subtitle span {
   color: #bfa37c;
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
 }
 #comfort .line {
   border: 0.25px solid #404040;
@@ -156,21 +151,16 @@ header #navbar .icons {
   border-bottom-width: 1px;
   margin: 15px 0;
 }
-
-#support {
-  background-color: #0B1112;
-  height: 308px;
-  display: flex;
-  justify-content: flex-end;
-}
-#support .widget {
+#comfort .widget {
   padding: 0% 0% 0% 46.5%;
 }
-#support .widget h5 {
+#comfort .widget h5 {
   font-size: 22px;
+  margin: 13px 0;
 }
-#support .widget p {
+#comfort .widget p {
   color: #A6A6A6;
+  margin-bottom: 60px;
 }
 
 #guarantee {
@@ -192,6 +182,7 @@ header #navbar .icons {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
 }
 #guarantee .widget p {
   margin-top: 30px;
@@ -221,7 +212,7 @@ header #navbar .icons {
 }
 
 #team {
-  background-color: #141A1C;
+  background-color: #0B1112;
   padding-top: 5rem;
   height: 820px;
 }
@@ -234,6 +225,7 @@ header #navbar .icons {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
 }
 #team .title .line {
   border: 0.25px solid #404040;
@@ -267,4 +259,82 @@ header #navbar .icons {
   flex-wrap: wrap;
   color: #bfa37c;
   margin-left: 12px;
+}
+
+#best-possibilities {
+  background-color: #0B1112;
+  height: 600px;
+}
+#best-possibilities .title h2 {
+  color: #fff;
+  font-size: 42px;
+}
+#best-possibilities .subtitle span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #bfa37c;
+}
+#best-possibilities .line {
+  border: 0.25px solid #404040;
+  border-color: #262D33;
+  border-bottom-width: 1px;
+  margin: 15px 0;
+}
+#best-possibilities .information {
+  display: flex;
+  align-items: center;
+  padding: 42px 0 56px 16.5%;
+  border-bottom: 1px solid #262d33;
+}
+#best-possibilities .information .car-img img {
+  opacity: 1;
+  transform: translateX(0);
+}
+#best-possibilities .information .title-price-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+#best-possibilities .information .title-price-wrapper .title h4 {
+  font-size: 28px;
+  color: #fff;
+}
+#best-possibilities .information .title-price-wrapper .price-info {
+  display: flex;
+  margin: 0;
+  line-height: 1;
+  justify-content: center;
+  align-items: flex-end;
+}
+#best-possibilities .information .title-price-wrapper .price-info span {
+  color: #a6a6a6;
+}
+#best-possibilities .information .title-price-wrapper .price-info .price-inner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#best-possibilities .information .title-price-wrapper .price-info .price-inner .value {
+  font-size: 55px;
+}
+#best-possibilities .information .title-price-wrapper .price-info .price-inner .currency {
+  font-size: 25px;
+}
+#best-possibilities .information .title-price-wrapper .price-info .price-inner span {
+  color: #bfa37c;
+}
+#best-possibilities .information .title-price-wrapper .price-info .price-period {
+  color: #bfa37c;
+  font-size: 20px;
+}
+#best-possibilities .information .content ul {
+  list-style: none;
+}
+#best-possibilities .information .content ul li {
+  color: #a6a6a6;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=home.css.map */
