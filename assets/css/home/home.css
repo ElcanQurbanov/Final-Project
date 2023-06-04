@@ -59,6 +59,72 @@ header #navbar .icons {
   cursor: pointer;
 }
 
+footer {
+  background-color: #0B1112;
+}
+footer .logo-gold {
+  width: 121px;
+  height: 12px;
+}
+footer .logo-gold img {
+  width: 100%;
+  height: 100%;
+}
+footer .widget p {
+  margin: 35px 0;
+  color: #a6a6a6;
+  font-size: 18px;
+  width: 105%;
+  font-family: "Times New Roman", Times, serif;
+}
+footer .content a {
+  text-decoration: none;
+  color: rgb(191, 163, 124);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+footer .nav-menu h5 {
+  color: #fff;
+}
+footer .nav-menu .footer-menu ul {
+  padding: 0;
+  list-style: none;
+}
+footer .nav-menu .footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+footer .nav-menu .footer-menu-2 ul {
+  padding: 0;
+  list-style: none;
+}
+footer .nav-menu .footer-menu-2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+footer .footer-bottom-area {
+  border-top: 1px solid #2d363e;
+  margin-top: 5rem;
+  padding: 20px;
+}
+footer .footer-bottom-area .content {
+  font-size: 14px;
+  color: #fff;
+}
+
 #slider .slider .slider-img {
   width: 100%;
   height: 100%;
@@ -212,7 +278,7 @@ header #navbar .icons {
 }
 
 #team {
-  background-color: #0B1112;
+  background-color: #141A1C;
   padding-top: 5rem;
   height: 820px;
 }
@@ -249,25 +315,24 @@ header #navbar .icons {
   font-size: 22px;
 }
 #team .persons .content .icon span {
-  font-family: Inconsolata, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  display: inline-flex;
-  vertical-align: middle;
-  flex-wrap: wrap;
   color: #bfa37c;
   margin-left: 12px;
 }
 
 #best-possibilities {
   background-color: #0B1112;
-  height: 600px;
+  padding-top: 5rem;
+  height: 1100px;
 }
 #best-possibilities .title h2 {
   color: #fff;
   font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
 }
 #best-possibilities .subtitle span {
   font-family: "Times New Roman", Times, serif;
@@ -287,54 +352,100 @@ header #navbar .icons {
   margin: 15px 0;
 }
 #best-possibilities .information {
+  padding: 0% 0% 0% 17%;
+}
+#best-possibilities .information .box {
   display: flex;
   align-items: center;
   padding: 42px 0 56px 16.5%;
   border-bottom: 1px solid #262d33;
+  position: relative;
 }
-#best-possibilities .information .car-img img {
+#best-possibilities .information .box .car-img {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+}
+#best-possibilities .information .box .car-img img {
   opacity: 1;
   transform: translateX(0);
+  position: relative;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
-#best-possibilities .information .title-price-wrapper {
+#best-possibilities .information .box .title-price-wrapper {
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
-#best-possibilities .information .title-price-wrapper .title h4 {
+#best-possibilities .information .box .title-price-wrapper .title h4 {
   font-size: 28px;
   color: #fff;
 }
-#best-possibilities .information .title-price-wrapper .price-info {
+#best-possibilities .information .box .title-price-wrapper .price-info {
   display: flex;
   margin: 0;
   line-height: 1;
   justify-content: center;
   align-items: flex-end;
 }
-#best-possibilities .information .title-price-wrapper .price-info span {
+#best-possibilities .information .box .title-price-wrapper .price-info span {
   color: #a6a6a6;
 }
-#best-possibilities .information .title-price-wrapper .price-info .price-inner {
+#best-possibilities .information .box .title-price-wrapper .price-info .price-inner {
   display: flex;
   flex-direction: row-reverse;
 }
-#best-possibilities .information .title-price-wrapper .price-info .price-inner .value {
+#best-possibilities .information .box .title-price-wrapper .price-info .price-inner .value {
   font-size: 55px;
 }
-#best-possibilities .information .title-price-wrapper .price-info .price-inner .currency {
+#best-possibilities .information .box .title-price-wrapper .price-info .price-inner .currency {
   font-size: 25px;
 }
-#best-possibilities .information .title-price-wrapper .price-info .price-inner span {
+#best-possibilities .information .box .title-price-wrapper .price-info .price-inner span {
   color: #bfa37c;
 }
-#best-possibilities .information .title-price-wrapper .price-info .price-period {
+#best-possibilities .information .box .title-price-wrapper .price-info .price-period {
   color: #bfa37c;
   font-size: 20px;
 }
-#best-possibilities .information .content ul {
+#best-possibilities .information .box .content ul {
   list-style: none;
 }
-#best-possibilities .information .content ul li {
+#best-possibilities .information .box .content ul li {
   color: #a6a6a6;
   margin-bottom: 10px;
+}
+#best-possibilities .information .box .content ul li i {
+  font-size: 13px;
+  font-weight: 900;
+  padding-right: 10px;
+}
+
+#sale {
+  background-color: #0B1112;
+  height: 400px;
+  padding: 30px 0;
+}
+#sale .background-img {
+  height: 330px;
+  background-image: url(../../img/sale-car-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sale .background-img .title {
+  margin-left: 5rem;
+}
+#sale .background-img .title h2 {
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.30952em;
 }/*# sourceMappingURL=home.css.map */

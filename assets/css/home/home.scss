@@ -1,4 +1,5 @@
 @use "../layout/header";
+@use "../layout/footer";
 
 #slider {
 
@@ -268,8 +269,8 @@
 
 
 #team {
-    // background-color: #141A1C;
-    background-color: #0B1112;
+    background-color: #141A1C;
+    // background-color: #0B1112;
     padding-top: 5rem;
     height: 820px;
 
@@ -319,21 +320,17 @@
 
         .content {
 
-
             h5 {
                 font-size: 22px;
             }
 
             .icon {
                 span {
-                    font-family: Inconsolata, sans-serif;
+                    font-family: 'Times New Roman', Times, serif;
                     font-size: 14px;
                     line-height: 24px;
                     letter-spacing: .25em;
                     text-transform: uppercase;
-                    display: inline-flex;
-                    vertical-align: middle;
-                    flex-wrap: wrap;
                     color: #bfa37c;
                     margin-left: 12px;
                 }
@@ -348,13 +345,16 @@
 #best-possibilities {
 
     background-color: #0B1112;
-    height: 600px;
+    // background-color: #141A1C;
+    padding-top: 5rem;
+    height: 1100px;
 
     .title {
 
         h2 {
             color: #fff;
             font-size: 42px;
+            font-family: 'Times New Roman', Times, serif;
         }
     }
 
@@ -379,89 +379,153 @@
         margin: 15px 0;
     }
 
-    .information {
+    .information{
+        padding: 0% 0% 0% 17%;
 
-        display: flex;
-        align-items: center;
-        // justify-content: space-between;
-        padding: 42px 0 56px 16.5%;
-        border-bottom: 1px solid #262d33;
+        .box {
 
-        .car-img {
-            img {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        .title-price-wrapper {
             display: flex;
-            flex-direction: column;
-            // z-index: 1;
-
-            .title {
-                h4 {
-                    font-size: 28px;
-                    color: #fff;
-                }
-            }
-
-
-            .price-info {
-
+            align-items: center;
+            // justify-content: space-between;
+            padding: 42px 0 56px 16.5%;
+            border-bottom: 1px solid #262d33;
+            position: relative;
+            
+    
+            .car-img {
+                position: absolute;
+                left: 0;
+                // top: 0;
+                // bottom: 0;
+                z-index: 0;
                 display: flex;
-                margin: 0;
-                line-height: 1;
-                justify-content: center;
-                align-items: flex-end;
-
-                span {
-                    color: #a6a6a6;
+                align-items: center;
+    
+                img {
+                    opacity: 1;
+                    transform: translateX(0);
+                    position: relative;
+                    height: auto;
+                    max-width: 100%;
+                    border: none;
+                    border-radius: 0;
+                    box-shadow: none;
                 }
-
-                .price-inner {
-                    display: flex;
-                    flex-direction: row-reverse;
-
-                    .value {
-                        font-size: 55px;
-                    }
-
-                    .currency {
-                        font-size: 25px;
-                    }
-
-                    span {
-                        color: #bfa37c;
-                        ;
-                    }
-
-                }
-
-
-                .price-period {
-                    color: #bfa37c;
-                    font-size: 20px;
-                }
-
             }
-
-        }
-
-
-        .content {
-            ul {
-                list-style: none;
-
-                li {
-
-                    color: #a6a6a6;
-                    margin-bottom: 10px;
-
+    
+            .title-price-wrapper {
+                display: flex;
+                flex-direction: column;
+                z-index: 1;
+                
+    
+                .title {
+                    // position: relative;
+                    // z-index: 2;
+                    h4 {
+                        font-size: 28px;
+                        color: #fff;
+                        // margin: 0 0 12px -1px;
+                    }
                 }
+    
+    
+                .price-info {
+    
+                    display: flex;
+                    margin: 0;
+                    line-height: 1;
+                    justify-content: center;
+                    align-items: flex-end;
+    
+                    span {
+                        color: #a6a6a6;
+                    }
+    
+                    .price-inner {
+                        display: flex;
+                        flex-direction: row-reverse;
+    
+                        .value {
+                            font-size: 55px;
+                        }
+    
+                        .currency {
+                            font-size: 25px;
+                        }
+    
+                        span {
+                            color: #bfa37c;
+                            ;
+                        }
+    
+                    }
+    
+    
+                    .price-period {
+                        color: #bfa37c;
+                        font-size: 20px;
+                    }
+    
+                }
+    
+            }
+    
+    
+            .content {
+
+                ul {
+                    list-style: none;
+    
+                    li {
+    
+                        i{
+                            font-size: 13px;
+                            font-weight: 900;
+                            padding-right: 10px;
+                        }
+    
+                        color: #a6a6a6;
+                        margin-bottom: 10px;
+    
+                    }
+                }
+            }
+    
+        }
+    }
+
+
+}
+
+
+
+#sale{
+
+    background-color: #0B1112;
+    height: 400px;
+    padding: 30px 0;
+
+    .background-img{
+        height: 330px;  
+        background-image: url(../../img/sale-car-img.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .title{
+            margin-left: 5rem;
+            h2{
+                font-size: 42px;
+                color: #fff;
+                font-weight: 400;
+                font-family: 'Times New Roman', Times, serif;
+                line-height: 1.30952em;
             }
         }
 
     }
-
+   
+   
+    
 }
