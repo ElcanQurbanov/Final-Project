@@ -258,17 +258,18 @@
 #fav-car {
     .background-img {
         height: 686px;
-        background-image: url("../../img/gtr.jpg");
+        background-image: url("../../img/home/gtr.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
 
-        .title{
+        .title {
             display: flex;
             align-items: center;
             height: 600px;
             margin-left: 15%;
-            h2{
+
+            h2 {
                 color: #fff
             }
         }
@@ -292,8 +293,9 @@
                 transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
                 padding: 17px 47px 17px 50px;
                 color: #fff;
-                span{
-                    i{
+
+                span {
+                    i {
                         margin-right: 5px;
                     }
                 }
@@ -301,14 +303,14 @@
             }
         }
 
-      
+
     }
 }
 
 
 #team {
-    background-color: #141A1C;
-    // background-color: #0B1112;
+    // background-color: #141A1C;
+    background-color: #0B1112;
     padding-top: 5rem;
     height: 820px;
 
@@ -377,6 +379,114 @@
 
     }
 
+}
+
+
+#premium-rental {
+    background-color: #141A1C;
+    padding-top: 7rem;
+
+    .img {
+        width: 100%;
+        margin-bottom: 7rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .img2 {
+        width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .widget {
+        padding: 5rem;
+
+        .title {
+
+            h2 {
+                color: #fff;
+                font-size: 42px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+
+        .subtitle {
+            span {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: .25em;
+                text-transform: uppercase;
+                display: inline-flex;
+                vertical-align: middle;
+                flex-wrap: wrap;
+                color: #bfa37c;
+            }
+        }
+
+        p {
+            margin: 25px 0 0;
+            color: #A6A6A6;
+        }
+
+
+        .items {
+            display: flex;
+            justify-content: space-between;
+
+            .digit-wrapper {
+                // position: absolute;\
+                display: flex;
+                // justify-content: flex-start;
+                // align-items: flex-end;
+            }
+
+            span {
+                letter-spacing: .03em;
+                font-size: 85px;
+                color: #fff;
+                // line-height: 1;
+            }
+
+            .digit-label {
+                position: relative;
+                // bottom: 3px;
+                font-size: 55px;
+            }
+        }
+
+
+        .content {
+            .text {
+                margin: 0;
+            }
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+
+#car {
+    .car-img {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
 }
 
 
@@ -549,8 +659,9 @@
                     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
                     padding: 17px 47px 17px 50px;
                     color: #fff;
-                    span{
-                        i{
+
+                    span {
+                        i {
                             margin-right: 5px;
                         }
                     }
@@ -574,7 +685,8 @@
 
     .background-img {
         height: 330px;
-        background-image: url(../../img/sale-car-img.jpg);
+        // background-image: url(../../img/sale-car-img.jpg);
+        background-image: url(../../img/home/sale-car-img.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -591,7 +703,7 @@
             }
         }
 
-       
+
 
     }
 

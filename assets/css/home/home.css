@@ -315,7 +315,7 @@ footer .footer-bottom-area .content {
 
 #fav-car .background-img {
   height: 686px;
-  background-image: url("../../img/gtr.jpg");
+  background-image: url("../../img/home/gtr.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -352,7 +352,7 @@ footer .footer-bottom-area .content {
 }
 
 #team {
-  background-color: #141A1C;
+  background-color: #0B1112;
   padding-top: 5rem;
   height: 820px;
 }
@@ -396,6 +396,75 @@ footer .footer-bottom-area .content {
   text-transform: uppercase;
   color: #bfa37c;
   margin-left: 12px;
+}
+
+#premium-rental {
+  background-color: #141A1C;
+  padding-top: 7rem;
+}
+#premium-rental .img {
+  width: 100%;
+  margin-bottom: 7rem;
+}
+#premium-rental .img img {
+  width: 100%;
+}
+#premium-rental .img2 {
+  width: 100%;
+}
+#premium-rental .img2 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#premium-rental .widget {
+  padding: 5rem;
+}
+#premium-rental .widget .title h2 {
+  color: #fff;
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+}
+#premium-rental .widget .subtitle span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #bfa37c;
+}
+#premium-rental .widget p {
+  margin: 25px 0 0;
+  color: #A6A6A6;
+}
+#premium-rental .widget .items {
+  display: flex;
+  justify-content: space-between;
+}
+#premium-rental .widget .items .digit-wrapper {
+  display: flex;
+}
+#premium-rental .widget .items span {
+  letter-spacing: 0.03em;
+  font-size: 85px;
+  color: #fff;
+}
+#premium-rental .widget .items .digit-label {
+  position: relative;
+  font-size: 55px;
+}
+#premium-rental .widget .content .text {
+  margin: 0;
+}
+
+#car .car-img {
+  width: 100%;
+}
+#car .car-img img {
+  width: 100%;
 }
 
 #best-possibilities {
@@ -530,7 +599,7 @@ footer .footer-bottom-area .content {
 }
 #sale .background-img {
   height: 330px;
-  background-image: url(../../img/sale-car-img.jpg);
+  background-image: url(../../img/home/sale-car-img.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
