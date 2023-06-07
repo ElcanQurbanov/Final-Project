@@ -22,13 +22,31 @@
 
 
 #about-us{
+
     .background-img{
         height: 499px;
         background-image: url("../../img/about/about-us.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+
+
+        
+        .title {
+
+            h1 {
+                height: 411px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-weight: 400;
+                font-size: 53px;
+            }
+        }
+
     }
+
 }
 
 
@@ -153,5 +171,108 @@
     }
 
   
+
+}
+
+
+
+#need{
+    background-color: #141A1C;
+    padding-top: 7rem;
+
+    .img {
+        width: 100%;
+        margin-bottom: 7rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .img2 {
+        width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .widget {
+        padding: 5rem;
+
+        .title {
+
+            h2 {
+                color: #fff;
+                font-size: 42px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+
+        .subtitle {
+            span {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: .25em;
+                text-transform: uppercase;
+                display: inline-flex;
+                vertical-align: middle;
+                flex-wrap: wrap;
+                color: #bfa37c;
+            }
+        }
+
+        p {
+            margin: 25px 0 0;
+            color: #A6A6A6;
+        }
+
+
+        .items {
+            display: flex;
+            justify-content: space-between;
+
+            .digit-wrapper {
+                // position: absolute;\
+                display: flex;
+                // justify-content: flex-start;
+                // align-items: flex-end;
+            }
+
+            span {
+                letter-spacing: .03em;
+                font-size: 85px;
+                color: #fff;
+                // line-height: 1;
+            }
+
+            .digit-label {
+                position: relative;
+                // bottom: 3px;
+                font-size: 55px;
+            }
+        }
+
+
+        .content {
+            .text {
+                margin: 0;
+            }
+        }
+
+
+    }
+
+
+    // .background-img{
+
+    //     height: 469px;
+    //     background-position: center center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-image: url(../../img/about/onlythebest-img.jpg);
+    // }
 
 }

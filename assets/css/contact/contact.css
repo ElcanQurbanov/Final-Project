@@ -171,8 +171,26 @@ footer .footer-bottom-area .content {
   color: #fff;
 }
 
+#contact-us .contact-us-img {
+  background-image: url("../../img/contact/contact-us.jpg");
+  height: 515px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact-us .contact-us-img .title h1 {
+  height: 497px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 53px;
+}
+
 #comfort {
   background-color: #0B1112;
+  height: 1200px;
   display: flex;
   justify-content: flex-end;
 }
@@ -196,6 +214,7 @@ footer .footer-bottom-area .content {
   margin: 15px 0;
 }
 #comfort .widget {
+  margin-bottom: 4rem;
   padding: 0% 0% 0% 46.5%;
 }
 #comfort .widget h5 {
@@ -204,5 +223,73 @@ footer .footer-bottom-area .content {
 }
 #comfort .widget p {
   color: #A6A6A6;
-  margin-bottom: 60px;
+  margin: 0;
+  font-size: 17.5px;
+}
+
+#safety {
+  background-color: #141A1C;
+  padding-top: 7rem;
+}
+#safety .img {
+  width: 100%;
+  margin-bottom: 7rem;
+}
+#safety .img img {
+  width: 100%;
+}
+#safety .img2 {
+  width: 100%;
+}
+#safety .img2 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#safety .widget {
+  padding: 5rem;
+}
+#safety .widget .title h2 {
+  color: #fff;
+  font-size: 42px;
+  font-family: "Times New Roman", Times, serif;
+}
+#safety .widget .subtitle span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #bfa37c;
+}
+#safety .widget p {
+  margin: 25px 0 0;
+  color: #A6A6A6;
+}
+#safety .widget .button {
+  margin-top: 3rem;
+}
+#safety .widget .button a {
+  border: 1px solid #bfa37c;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.25em;
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+  padding: 17px 47px 17px 50px;
+  color: #fff;
+}
+#safety .widget .button a span i {
+  margin-right: 5px;
 }/*# sourceMappingURL=contact.css.map */

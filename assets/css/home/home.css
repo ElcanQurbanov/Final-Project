@@ -329,6 +329,10 @@ footer .footer-bottom-area .content {
 #fav-car .background-img .title h2 {
   color: #fff;
 }
+#fav-car .background-img .button {
+  position: relative;
+  bottom: 33%;
+}
 #fav-car .background-img .button a {
   border: 1px solid #bfa37c;
   font-family: "Times New Roman", Times, serif;
@@ -456,7 +460,7 @@ footer .footer-bottom-area .content {
   position: relative;
   font-size: 55px;
 }
-#premium-rental .widget .content .text {
+#premium-rental .widget .items .content .text {
   margin: 0;
 }
 
@@ -613,4 +617,6 @@ footer .footer-bottom-area .content {
   font-weight: 400;
   font-family: "Times New Roman", Times, serif;
   line-height: 1.30952em;
+  position: relative;
+  top: 3rem;
 }/*# sourceMappingURL=home.css.map */

@@ -276,6 +276,9 @@
 
 
         .button {
+            position: relative;
+            // left: 15%;
+            bottom: 33%;
             a {
                 border: 1px solid #bfa37c;
                 font-family: 'Times New Roman', Times, serif;
@@ -459,14 +462,16 @@
                 // bottom: 3px;
                 font-size: 55px;
             }
-        }
 
-
-        .content {
-            .text {
-                margin: 0;
+            .content {
+                .text {
+                    margin: 0;
+                }
             }
         }
+
+
+       
 
 
     }
@@ -700,6 +705,8 @@
                 font-weight: 400;
                 font-family: 'Times New Roman', Times, serif;
                 line-height: 1.30952em;
+                position: relative;
+                top: 3rem;
             }
         }
 
