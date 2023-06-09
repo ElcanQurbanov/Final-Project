@@ -2,6 +2,32 @@
 @use "../layout/footer";
 
 
+#page-title {
+    // background-color: #0c1315;
+    background-color: #141A1C;
+
+    .content {
+
+        .title {
+            display: flex;
+            justify-content: end;
+            gap: 4px;
+            padding: 20px 0;
+
+            a {
+                text-decoration: none;
+                // color: #404040;
+                color: #fff;
+            }
+
+            span {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
 #blog {
     background-color: #141A1C;
 

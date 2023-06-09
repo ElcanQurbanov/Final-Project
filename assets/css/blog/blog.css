@@ -171,6 +171,23 @@ footer .footer-bottom-area .content {
   color: #fff;
 }
 
+#page-title {
+  background-color: #141A1C;
+}
+#page-title .content .title {
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+  padding: 20px 0;
+}
+#page-title .content .title a {
+  text-decoration: none;
+  color: #fff;
+}
+#page-title .content .title span {
+  color: #fff;
+}
+
 #blog {
   background-color: #141A1C;
 }
