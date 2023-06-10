@@ -29,33 +29,80 @@
 }
 
 
-#shop{
+#shop {
     background-color: #141A1C;
-    
-    .products{
+
+    .products {
         padding-top: 5rem;
-        
-        .result-count{
-            p{
+
+        .result-count {
+            p {
                 margin-bottom: 3rem;
                 color: #fff;
             }
         }
 
-        .product-list{
+        .product-list {
 
-            .product-info{
+            .product-info {
 
-                .product-img{
+                .product-img {
                     margin-bottom: 20px;
+                    margin-top: 3rem;
                     width: 100%;
                     // height: 100%;
                     height: 535px;
-                    
-                    img{
+
+                    img {
                         width: 100%;
                         height: 100%;
                     }
+                }
+
+                .content {
+
+                    .top-holder {
+
+                        display: flex;
+                        justify-content: space-between;
+
+                        a {
+                            text-decoration: none;
+                            color: #fff;
+
+                            h5 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        .price{
+
+                            color: #fff;
+                            font-size: 18px;
+
+                            // span {
+                            //     font-size: 18px;
+                            // }
+                        }
+
+                    }
+
+                    .info {
+                        a {
+                            // font-family: Inconsolata,sans-serif;
+                            font-family: 'Times New Roman', Times, serif;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .25em;
+                            text-transform: uppercase;
+                            display: inline-flex;
+                            vertical-align: middle;
+                            flex-wrap: wrap;
+                            color: #bfa37c;
+                            text-decoration: none;
+                        }
+                    }
+
                 }
 
             }
@@ -65,18 +112,18 @@
     }
 
 
-    .popular-product{
+    .popular-product {
 
-        // margin-top: 5rem;
+        margin-top: 5rem;
 
 
         .widget {
             margin-left: 15%;
-            
+
 
             h5 {
                 // margin-bottom: 25px;
-                padding-top: 8rem;
+                padding-top: 7rem;
                 color: #fff;
                 font-weight: 400;
                 // font-family: Epilogue, sans-serif;
@@ -101,7 +148,7 @@
                 .media-img {
                     width: 115px;
                     height: 130px;
-                    
+
                     margin-bottom: 25px;
 
                     img {
@@ -125,7 +172,7 @@
 
                     h6 {
                         margin-left: 15px;
-                      
+
                         a {
                             text-decoration: none;
                             color: #fff;
@@ -142,6 +189,7 @@
                         letter-spacing: .25em;
                         font-size: 14px;
                         font-family: 'Times New Roman', Times, serif;
+                        // margin-bottom: 20px;
                     }
                 }
 

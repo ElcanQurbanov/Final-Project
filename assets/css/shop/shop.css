@@ -200,6 +200,7 @@ footer .footer-bottom-area .content {
 }
 #shop .products .product-list .product-info .product-img {
   margin-bottom: 20px;
+  margin-top: 3rem;
   width: 100%;
   height: 535px;
 }
@@ -207,11 +208,41 @@ footer .footer-bottom-area .content {
   width: 100%;
   height: 100%;
 }
+#shop .products .product-list .product-info .content .top-holder {
+  display: flex;
+  justify-content: space-between;
+}
+#shop .products .product-list .product-info .content .top-holder a {
+  text-decoration: none;
+  color: #fff;
+}
+#shop .products .product-list .product-info .content .top-holder a h5 {
+  font-size: 22px;
+}
+#shop .products .product-list .product-info .content .top-holder .price {
+  color: #fff;
+  font-size: 18px;
+}
+#shop .products .product-list .product-info .content .info a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  color: #bfa37c;
+  text-decoration: none;
+}
+#shop .popular-product {
+  margin-top: 5rem;
+}
 #shop .popular-product .widget {
   margin-left: 15%;
 }
 #shop .popular-product .widget h5 {
-  padding-top: 8rem;
+  padding-top: 7rem;
   color: #fff;
   font-weight: 400;
   font-size: 22px;

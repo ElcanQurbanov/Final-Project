@@ -58,7 +58,7 @@
 }
 
 
-#car-rez {
+#product {
 
     background-color: #141A1C;
     height: 1770px;
@@ -124,7 +124,7 @@
     //     max-width: 1380px !important;
     // }
 
-    .car-img {
+    .product-img {
         width: 416.66px;
         height: 573.4px;
         margin-top: 5rem;
@@ -139,10 +139,15 @@
         flex-direction: column;
         align-items: center;
 
-        h5 {
+
+        a{
+            text-decoration: none;
             color: #fff;
-            font-size: 22px;
+            h5 {
+                font-size: 22px;
+            }
         }
+
     }
 }
 

@@ -182,11 +182,11 @@ footer .footer-bottom-area .content {
      object-fit: cover;
 }
 
-#car-rez {
+#product {
   background-color: #141A1C;
   height: 1770px;
 }
-#car-rez .title h2 {
+#product .title h2 {
   color: #fff;
   font-weight: 400;
   font-size: 42px;
@@ -195,25 +195,25 @@ footer .footer-bottom-area .content {
   word-wrap: break-word;
   margin-top: 7rem;
 }
-#car-rez .widget p {
+#product .widget p {
   margin-top: 7rem;
   color: #A6A6A6;
   margin-left: 80px;
 }
-#car-rez .call-center {
+#product .call-center {
   display: flex;
   align-items: center;
 }
-#car-rez .call-center .earphone {
+#product .call-center .earphone {
   width: 45px;
   height: 50px;
   margin-left: 80px;
   margin-right: 19px;
 }
-#car-rez .call-center .earphone img {
+#product .call-center .earphone img {
   width: 100%;
 }
-#car-rez .call-center .call-number a {
+#product .call-center .call-number a {
   text-decoration: none;
   color: #bfa37c;
   font-size: 14px;
@@ -221,21 +221,24 @@ footer .footer-bottom-area .content {
   letter-spacing: 0.25em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-#car-rez .car-img {
+#product .product-img {
   width: 416.66px;
   height: 573.4px;
   margin-top: 5rem;
 }
-#car-rez .car-img img {
+#product .product-img img {
   width: 100%;
 }
-#car-rez .content {
+#product .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#car-rez .content h5 {
+#product .content a {
+  text-decoration: none;
   color: #fff;
+}
+#product .content a h5 {
   font-size: 22px;
 }
 
