@@ -220,6 +220,18 @@ footer .footer-bottom-area .content {
   margin: 30px 0;
   color: #fff;
 }
+#blog .blog .content .widget {
+  color: #fff;
+}
+#blog .blog .content .widget p {
+  margin: 30px 0;
+  font-size: 17px;
+}
+#blog .blog .content .widget .text-box p {
+  font-size: 22px;
+  line-height: 1.45455em;
+  padding: 0 7.4% 0 10%;
+}
 #blog .blog .content .button {
   margin-bottom: 3rem;
   position: relative;
