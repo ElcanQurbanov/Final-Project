@@ -234,6 +234,7 @@ footer .footer-bottom-area .content {
   flex-wrap: wrap;
   color: #bfa37c;
   text-decoration: none;
+  margin-bottom: 5rem;
 }
 #shop .popular-product {
   margin-top: 5rem;
@@ -245,11 +246,10 @@ footer .footer-bottom-area .content {
   padding-top: 7rem;
   color: #fff;
   font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
   font-size: 22px;
   line-height: 1.45455em;
   margin: 25px 0;
-  -ms-word-wrap: break-word;
-  word-wrap: break-word;
 }
 #shop .popular-product .information {
   display: flex;
@@ -282,4 +282,33 @@ footer .footer-bottom-area .content {
   letter-spacing: 0.25em;
   font-size: 14px;
   font-family: "Times New Roman", Times, serif;
+}
+#shop .category {
+  margin-left: 15%;
+}
+#shop .category .title h5 {
+  color: #fff;
+  margin-top: 3rex;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  line-height: 1.45455em;
+}
+#shop .category .categories-list ul {
+  list-style: none;
+  padding: 0;
+}
+#shop .category .categories-list ul a {
+  text-decoration: none;
+}
+#shop .category .categories-list ul a li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  display: inline-flex;
+  flex-wrap: wrap;
+  color: #bfa37c;
+  display: block;
 }/*# sourceMappingURL=shop.css.map */

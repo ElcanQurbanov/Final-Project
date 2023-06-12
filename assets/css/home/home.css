@@ -304,7 +304,6 @@ footer .footer-bottom-area .content {
 }
 #product-detail .tags {
   margin-left: 15%;
-  margin-top: 20px;
 }
 #product-detail .tags a {
   margin: 0 8px 8px 0;
@@ -345,7 +344,6 @@ footer .footer-bottom-area .content {
   font-family: "Times New Roman", Times, serif;
   font-size: 22px;
   line-height: 1.45455em;
-  margin: 25px 0;
   color: #fff;
 }
 #product-detail .price-info .price {
