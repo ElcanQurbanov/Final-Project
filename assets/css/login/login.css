@@ -197,144 +197,113 @@ footer #down-footer .footer-bottom-area .content {
   color: #fff;
 }
 
-#page-title {
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
   background-color: #141A1C;
+  background: url("../../img/home/slider4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#page-title .content .title {
+#login .form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
   display: flex;
-  justify-content: end;
-  gap: 4px;
-  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
 }
-#page-title .content .title a {
-  text-decoration: none;
+#login .form-box h2 {
+  font-size: 2em;
   color: #fff;
+  text-align: center;
 }
-#page-title .content .title span {
+#login .form-box .inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff;
+}
+#login .form-box .inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
   color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
 }
-
-#shop {
-  background-color: #141A1C;
-}
-#shop .products {
-  padding-top: 5rem;
-}
-#shop .products .result-count p {
-  margin-bottom: 3rem;
-  color: #fff;
-}
-#shop .products .product-list .product-info .product-img {
-  margin-bottom: 20px;
-  margin-top: 3rem;
+#login .form-box .inputbox input {
   width: 100%;
-  height: 535px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
 }
-#shop .products .product-list .product-info .product-img img {
-  width: 100%;
-  height: 100%;
+#login .form-box .inputbox i {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px;
 }
-#shop .products .product-list .product-info .content .top-holder {
+#login .form-box input:focus ~ label,
+#login .form-box input:valid ~ label {
+  top: -5px;
+}
+#login .form-box .forget {
+  margin: -15px 0 15px;
+  font-size: 0.9em;
+  color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
-#shop .products .product-list .product-info .content .top-holder a {
+#login .form-box .forget label input {
+  margin-right: 3px;
+}
+#login .form-box .forget label a {
+  color: #fff;
   text-decoration: none;
-  color: #fff;
-}
-#shop .products .product-list .product-info .content .top-holder a h5 {
-  font-size: 22px;
-}
-#shop .products .product-list .product-info .content .top-holder .price {
-  color: #fff;
-  font-size: 18px;
-}
-#shop .products .product-list .product-info .content .info a {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  display: inline-flex;
-  vertical-align: middle;
-  flex-wrap: wrap;
-  color: #bfa37c;
-  text-decoration: none;
-  margin-bottom: 5rem;
-}
-#shop .popular-product {
-  margin-top: 5rem;
-}
-#shop .popular-product .widget {
-  margin-left: 15%;
-}
-#shop .popular-product .widget h5 {
-  padding-top: 7rem;
-  color: #fff;
-  font-weight: 400;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 22px;
-  line-height: 1.45455em;
-  margin: 25px 0;
-}
-#shop .popular-product .information {
-  display: flex;
-}
-#shop .popular-product .information .media {
-  margin-left: 15%;
-  display: flex;
-}
-#shop .popular-product .information .media .media-img {
-  width: 115px;
-  height: 130px;
-  margin-bottom: 25px;
-}
-#shop .popular-product .information .media .media-img img {
-  width: 100%;
-  height: 100%;
-}
-#shop .popular-product .information .content .text h6 {
   margin-left: 15px;
 }
-#shop .popular-product .information .content .text h6 a {
+#login .form-box .forget label a:hover {
+  text-decoration: underline;
+}
+#login .form-box button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+#login .form-box .register {
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 25px 0 10px;
+}
+#login .form-box .register p a {
   text-decoration: none;
   color: #fff;
+  font-weight: 600;
 }
-#shop .popular-product .information .content .info a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #bfa37c;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
-}
-#shop .category {
-  margin-left: 15%;
-}
-#shop .category .title h5 {
-  color: #fff;
-  margin-top: 3rex;
-  font-weight: 400;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 22px;
-  line-height: 1.45455em;
-}
-#shop .category .categories-list ul {
-  list-style: none;
-  padding: 0;
-}
-#shop .category .categories-list ul a {
-  text-decoration: none;
-}
-#shop .category .categories-list ul a li {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  display: inline-flex;
-  flex-wrap: wrap;
-  color: #bfa37c;
-  display: block;
-}/*# sourceMappingURL=shop.css.map */
+#login .form-box .register p a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=login.css.map */

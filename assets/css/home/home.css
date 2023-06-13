@@ -33,6 +33,7 @@ header #navbar .nav-menu .menu li a {
   text-decoration: none;
   font-size: 14px;
   position: relative;
+  font-family: "Times New Roman", Times, serif;
 }
 header #navbar .nav-menu .menu li a i {
   transition: 0.3s all;
@@ -58,91 +59,91 @@ header #navbar .icons {
   gap: 26px;
   cursor: pointer;
 }
-header .login {
+header .login-register {
   width: 100px;
   background-color: #141A1C;
-  justify-content: end;
   position: absolute;
-  top: 44px;
-  right: 45px;
+  top: 2.5rem;
+  right: 3rem;
   z-index: 2;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding: 10px 0 0 20px;
   border-radius: 5px;
 }
-header .login ul {
+header .login-register ul {
   padding: 0px;
 }
-header .login ul li {
+header .login-register ul li {
   list-style: none;
   height: 30px;
 }
-header .login ul li a {
+header .login-register ul li a {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  border-bottom: 1px solid #fff;
 }
 
-footer {
+footer #up-footer {
   background-color: #0B1112;
 }
-footer .content {
+footer #up-footer .content {
   padding: 35px 0;
 }
-footer .content .items {
+footer #up-footer .content .items {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
 }
-footer .content .items p {
+footer #up-footer .content .items p {
   margin: 0;
   color: #a6a6a6;
   font-size: 18px;
 }
-footer .content .items .location-img {
+footer #up-footer .content .items .location-img {
   width: 26px;
   height: 42px;
   margin-right: 10px;
 }
-footer .content .items .location-img img {
+footer #up-footer .content .items .location-img img {
   width: 100%;
   height: 100%;
 }
-footer .content .earphone-img {
+footer #up-footer .content .earphone-img {
   width: 45px;
   height: 50px;
   margin-right: 10px;
 }
-footer .content .earphone-img img {
+footer #up-footer .content .earphone-img img {
   width: 100%;
   height: 100%;
 }
-footer .content .speedometer-img {
+footer #up-footer .content .speedometer-img {
   width: 45px;
   height: 45px;
   margin-right: 10px;
 }
-footer .content .speedometer-img img {
+footer #up-footer .content .speedometer-img img {
   width: 100%;
   height: 100%;
 }
-footer .logo-gold {
+footer #down-footer {
+  background-color: #0B1112;
+}
+footer #down-footer .logo-gold {
   width: 121px;
   height: 12px;
 }
-footer .logo-gold img {
+footer #down-footer .logo-gold img {
   width: 100%;
   height: 100%;
 }
-footer .widget p {
+footer #down-footer .widget p {
   margin-top: 51px;
   color: #a6a6a6;
   font-size: 18px;
   width: 105%;
   font-family: "Times New Roman", Times, serif;
 }
-footer .content a {
+footer #down-footer .content a {
   text-decoration: none;
   color: rgb(191, 163, 124);
   font-family: "Times New Roman", Times, serif;
@@ -151,20 +152,20 @@ footer .content a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-footer .nav {
+footer #down-footer .nav {
   display: flex;
   justify-content: center;
 }
-footer .nav .nav-menu h5 {
+footer #down-footer .nav .nav-menu h5 {
   color: #fff;
   font-size: 22px;
   margin-bottom: 28px;
 }
-footer .nav .nav-menu .footer-menu ul {
+footer #down-footer .nav .nav-menu .footer-menu ul {
   padding: 0;
   list-style: none;
 }
-footer .nav .nav-menu .footer-menu ul li a {
+footer #down-footer .nav .nav-menu .footer-menu ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Times New Roman", Times, serif;
@@ -173,11 +174,11 @@ footer .nav .nav-menu .footer-menu ul li a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-footer .nav .nav-menu .footer-menu-2 ul {
+footer #down-footer .nav .nav-menu .footer-menu-2 ul {
   padding: 0;
   list-style: none;
 }
-footer .nav .nav-menu .footer-menu-2 ul li a {
+footer #down-footer .nav .nav-menu .footer-menu-2 ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Times New Roman", Times, serif;
@@ -186,12 +187,12 @@ footer .nav .nav-menu .footer-menu-2 ul li a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-footer .footer-bottom-area {
+footer #down-footer .footer-bottom-area {
   border-top: 1px solid #2d363e;
   margin-top: 4rem;
   padding: 20px;
 }
-footer .footer-bottom-area .content {
+footer #down-footer .footer-bottom-area .content {
   font-size: 14px;
   color: #fff;
 }
@@ -235,7 +236,7 @@ footer .footer-bottom-area .content {
   font-family: "Times New Roman", Times, serif;
   line-height: 1.30952em;
   word-wrap: break-word;
-  margin-top: 7rem;
+  margin-top: 17%;
 }
 #product .widget p {
   margin-top: 7rem;
@@ -249,8 +250,8 @@ footer .footer-bottom-area .content {
 #product .call-center .earphone {
   width: 45px;
   height: 50px;
-  margin-left: 80px;
-  margin-right: 19px;
+  margin-left: 13%;
+  margin-right: 1rem;
 }
 #product .call-center .earphone img {
   width: 100%;
@@ -286,7 +287,7 @@ footer .footer-bottom-area .content {
 
 #product-detail {
   background-color: #141A1C;
-  padding-top: 5rem;
+  padding-top: 5%;
   height: 1550px;
 }
 #product-detail .product-detail-info {
@@ -399,7 +400,7 @@ footer .footer-bottom-area .content {
 }
 #comfort .title h2 {
   font-size: 42px;
-  padding-top: 5rem;
+  padding-top: 5%;
   font-family: "Times New Roman", Times, serif;
   color: #fff;
 }
@@ -425,7 +426,7 @@ footer .footer-bottom-area .content {
 }
 #comfort .widget p {
   color: #A6A6A6;
-  margin-bottom: 60px;
+  margin-bottom: 5rem;
 }
 
 #guarantee {
@@ -433,7 +434,7 @@ footer .footer-bottom-area .content {
   height: 660px;
 }
 #guarantee .widget {
-  margin-top: 7rem;
+  margin-top: 17%;
 }
 #guarantee .widget h3 {
   color: #fff;
@@ -452,6 +453,7 @@ footer .footer-bottom-area .content {
 #guarantee .widget p {
   margin-top: 30px;
   color: #A6A6A6;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   width: 86%;
 }
@@ -510,7 +512,7 @@ footer .footer-bottom-area .content {
 
 #team {
   background-color: #0B1112;
-  padding-top: 5rem;
+  padding-top: 5%;
   height: 820px;
 }
 #team .title h2 {
@@ -557,7 +559,7 @@ footer .footer-bottom-area .content {
 
 #premium-rental {
   background-color: #141A1C;
-  padding-top: 7rem;
+  padding-top: 7%;
 }
 #premium-rental .img {
   width: 100%;
@@ -626,7 +628,7 @@ footer .footer-bottom-area .content {
 
 #best-possibilities {
   background-color: #0B1112;
-  padding-top: 5rem;
+  padding-top: 5%;
   height: 1100px;
 }
 #best-possibilities .title h2 {
@@ -756,7 +758,7 @@ footer .footer-bottom-area .content {
 }
 #sale .background-img {
   height: 330px;
-  background-image: url(../../img/home/sale-car-img.jpg);
+  background-image: url("../../img/home/sale-car-img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -772,225 +774,4 @@ footer .footer-bottom-area .content {
   line-height: 1.30952em;
   position: relative;
   top: 3rem;
-}
-
-#login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-  background-color: #141A1C;
-  background: url("../../img/home/slider4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#login .form-box {
-  position: relative;
-  width: 400px;
-  height: 450px;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-}
-#login .form-box h2 {
-  font-size: 2em;
-  color: #fff;
-  text-align: center;
-}
-#login .form-box .inputbox {
-  position: relative;
-  margin: 30px 0;
-  width: 310px;
-  border-bottom: 2px solid #fff;
-}
-#login .form-box .inputbox label {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  color: #fff;
-  font-size: 1em;
-  pointer-events: none;
-  transition: 0.5s;
-}
-#login .form-box .inputbox input {
-  width: 100%;
-  height: 50px;
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 1em;
-  padding: 0 35px 0 5px;
-  color: #fff;
-}
-#login .form-box .inputbox i {
-  position: absolute;
-  right: 8px;
-  color: #fff;
-  font-size: 1.2em;
-  top: 20px;
-}
-#login .form-box input:focus ~ label,
-#login .form-box input:valid ~ label {
-  top: -5px;
-}
-#login .form-box .forget {
-  margin: -15px 0 15px;
-  font-size: 0.9em;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
-#login .form-box .forget label input {
-  margin-right: 3px;
-}
-#login .form-box .forget label a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 15px;
-}
-#login .form-box .forget label a:hover {
-  text-decoration: underline;
-}
-#login .form-box button {
-  width: 100%;
-  height: 40px;
-  border-radius: 40px;
-  background: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 600;
-}
-#login .form-box .register {
-  font-size: 0.9em;
-  color: #fff;
-  text-align: center;
-  margin: 25px 0 10px;
-}
-#login .form-box .register p a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-}
-#login .form-box .register p a:hover {
-  text-decoration: underline;
-}
-
-#register {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  width: 100%;
-  background-color: #141A1C;
-  background: url("../../img/home/slider4.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#register .form-box {
-  position: relative;
-  width: 450px;
-  height: 580px;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-}
-#register .form-box h2 {
-  font-size: 2em;
-  color: #fff;
-  text-align: center;
-}
-#register .form-box .inputbox {
-  position: relative;
-  margin: 30px 0;
-  width: 310px;
-  border-bottom: 2px solid #fff;
-}
-#register .form-box .inputbox label {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  color: #fff;
-  font-size: 1em;
-  pointer-events: none;
-  transition: 0.5s;
-}
-#register .form-box input:focus ~ label,
-#register .form-box input:valid ~ label {
-  top: -5px;
-}
-#register .form-box .inputbox input {
-  width: 100%;
-  height: 50px;
-  background: transparent;
-  border: none;
-  outline: none;
-  font-size: 1em;
-  padding: 0 35px 0 5px;
-  color: #fff;
-}
-#register .form-box .inputbox i {
-  position: absolute;
-  right: 8px;
-  color: #fff;
-  font-size: 1.2em;
-  top: 20px;
-}
-#register .form-box .forget {
-  margin: -15px 0 15px;
-  font-size: 0.9em;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
-#register .form-box .forget label input {
-  margin-right: 3px;
-}
-#register .form-box .forget label a {
-  color: #fff;
-  text-decoration: none;
-}
-#register .form-box .forget label a:hover {
-  text-decoration: underline;
-}
-#register .form-box button {
-  width: 100%;
-  height: 40px;
-  border-radius: 40px;
-  background: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 1em;
-  font-weight: 600;
-}
-#register .form-box .register {
-  font-size: 0.9em;
-  color: #fff;
-  text-align: center;
-  margin: 25px 0 10px;
-}
-#register .form-box .register p a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-}
-#register .form-box .register p a:hover {
-  text-decoration: underline;
 }/*# sourceMappingURL=home.css.map */

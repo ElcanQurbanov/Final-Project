@@ -33,6 +33,7 @@ header #navbar .nav-menu .menu li a {
   text-decoration: none;
   font-size: 14px;
   position: relative;
+  font-family: "Times New Roman", Times, serif;
 }
 header #navbar .nav-menu .menu li a i {
   transition: 0.3s all;
@@ -58,91 +59,91 @@ header #navbar .icons {
   gap: 26px;
   cursor: pointer;
 }
-header .login {
+header .login-register {
   width: 100px;
   background-color: #141A1C;
-  justify-content: end;
   position: absolute;
-  top: 44px;
-  right: 45px;
+  top: 2.5rem;
+  right: 3rem;
   z-index: 2;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding: 10px 0 0 20px;
   border-radius: 5px;
 }
-header .login ul {
+header .login-register ul {
   padding: 0px;
 }
-header .login ul li {
+header .login-register ul li {
   list-style: none;
   height: 30px;
 }
-header .login ul li a {
+header .login-register ul li a {
   text-decoration: none;
   color: white;
   cursor: pointer;
-  border-bottom: 1px solid #fff;
 }
 
-footer {
+footer #up-footer {
   background-color: #0B1112;
 }
-footer .content {
+footer #up-footer .content {
   padding: 35px 0;
 }
-footer .content .items {
+footer #up-footer .content .items {
   display: flex;
   align-items: center;
   margin-bottom: 4rem;
 }
-footer .content .items p {
+footer #up-footer .content .items p {
   margin: 0;
   color: #a6a6a6;
   font-size: 18px;
 }
-footer .content .items .location-img {
+footer #up-footer .content .items .location-img {
   width: 26px;
   height: 42px;
   margin-right: 10px;
 }
-footer .content .items .location-img img {
+footer #up-footer .content .items .location-img img {
   width: 100%;
   height: 100%;
 }
-footer .content .earphone-img {
+footer #up-footer .content .earphone-img {
   width: 45px;
   height: 50px;
   margin-right: 10px;
 }
-footer .content .earphone-img img {
+footer #up-footer .content .earphone-img img {
   width: 100%;
   height: 100%;
 }
-footer .content .speedometer-img {
+footer #up-footer .content .speedometer-img {
   width: 45px;
   height: 45px;
   margin-right: 10px;
 }
-footer .content .speedometer-img img {
+footer #up-footer .content .speedometer-img img {
   width: 100%;
   height: 100%;
 }
-footer .logo-gold {
+footer #down-footer {
+  background-color: #0B1112;
+}
+footer #down-footer .logo-gold {
   width: 121px;
   height: 12px;
 }
-footer .logo-gold img {
+footer #down-footer .logo-gold img {
   width: 100%;
   height: 100%;
 }
-footer .widget p {
+footer #down-footer .widget p {
   margin-top: 51px;
   color: #a6a6a6;
   font-size: 18px;
   width: 105%;
   font-family: "Times New Roman", Times, serif;
 }
-footer .content a {
+footer #down-footer .content a {
   text-decoration: none;
   color: rgb(191, 163, 124);
   font-family: "Times New Roman", Times, serif;
@@ -151,20 +152,20 @@ footer .content a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-footer .nav {
+footer #down-footer .nav {
   display: flex;
   justify-content: center;
 }
-footer .nav .nav-menu h5 {
+footer #down-footer .nav .nav-menu h5 {
   color: #fff;
   font-size: 22px;
   margin-bottom: 28px;
 }
-footer .nav .nav-menu .footer-menu ul {
+footer #down-footer .nav .nav-menu .footer-menu ul {
   padding: 0;
   list-style: none;
 }
-footer .nav .nav-menu .footer-menu ul li a {
+footer #down-footer .nav .nav-menu .footer-menu ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Times New Roman", Times, serif;
@@ -173,11 +174,11 @@ footer .nav .nav-menu .footer-menu ul li a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-footer .nav .nav-menu .footer-menu-2 ul {
+footer #down-footer .nav .nav-menu .footer-menu-2 ul {
   padding: 0;
   list-style: none;
 }
-footer .nav .nav-menu .footer-menu-2 ul li a {
+footer #down-footer .nav .nav-menu .footer-menu-2 ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Times New Roman", Times, serif;
@@ -186,12 +187,12 @@ footer .nav .nav-menu .footer-menu-2 ul li a {
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
-footer .footer-bottom-area {
+footer #down-footer .footer-bottom-area {
   border-top: 1px solid #2d363e;
   margin-top: 4rem;
   padding: 20px;
 }
-footer .footer-bottom-area .content {
+footer #down-footer .footer-bottom-area .content {
   font-size: 14px;
   color: #fff;
 }
@@ -323,6 +324,126 @@ footer .footer-bottom-area .content {
   color: #fff;
 }
 #blog .recent-post .information .content .info a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #bfa37c;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#blog-detail {
+  background-color: #141A1C;
+}
+#blog-detail .blog .title h2 {
+  font-size: 50px;
+  padding-top: 5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+#blog-detail .blog .title h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+#blog-detail .blog .subtitle span {
+  color: #bfa37c;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+#blog-detail .blog .content .img {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+#blog-detail .blog .content .img img {
+  width: 100%;
+  height: 100%;
+}
+#blog-detail .blog .content .text p {
+  margin: 30px 0;
+  color: #fff;
+}
+#blog-detail .blog .content .widget {
+  color: #fff;
+}
+#blog-detail .blog .content .widget p {
+  margin: 30px 0;
+  font-size: 17px;
+}
+#blog-detail .blog .content .widget .text-box p {
+  font-size: 22px;
+  line-height: 1.45455em;
+  padding: 0 7.4% 0 10%;
+}
+#blog-detail .blog .content .button {
+  margin-bottom: 3rem;
+  position: relative;
+  bottom: 33%;
+}
+#blog-detail .blog .content .button a {
+  border: 1px solid #bfa37c;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.25em;
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+  padding: 17px 47px 17px 50px;
+  color: #fff;
+}
+#blog-detail .blog .content .button a span i {
+  margin-right: 5px;
+}
+#blog-detail .recent-post {
+  margin-top: 10rem;
+}
+#blog-detail .recent-post .widget {
+  margin-left: 15%;
+}
+#blog-detail .recent-post .widget h5 {
+  padding-top: 5rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.45455em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+#blog-detail .recent-post .information {
+  display: flex;
+}
+#blog-detail .recent-post .information .media {
+  margin-left: 15%;
+  display: flex;
+}
+#blog-detail .recent-post .information .media .media-img {
+  width: 115px;
+  height: 85px;
+  margin-bottom: 25px;
+}
+#blog-detail .recent-post .information .media .media-img img {
+  width: 100%;
+  height: 100%;
+}
+#blog-detail .recent-post .information .content .text h6 {
+  margin-left: 15px;
+}
+#blog-detail .recent-post .information .content .text h6 a {
+  text-decoration: none;
+  color: #fff;
+}
+#blog-detail .recent-post .information .content .info a {
   margin-left: 15px;
   text-decoration: none;
   color: #bfa37c;
