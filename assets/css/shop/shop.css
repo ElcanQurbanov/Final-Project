@@ -58,6 +58,31 @@ header #navbar .icons {
   gap: 26px;
   cursor: pointer;
 }
+header .login {
+  width: 100px;
+  background-color: #141A1C;
+  justify-content: end;
+  position: absolute;
+  top: 44px;
+  right: 45px;
+  z-index: 2;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+header .login ul {
+  padding: 0px;
+}
+header .login ul li {
+  list-style: none;
+  height: 30px;
+}
+header .login ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
 
 footer {
   background-color: #0B1112;

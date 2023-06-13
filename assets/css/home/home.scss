@@ -95,8 +95,8 @@
             color: #fff;
             font-weight: 400;
             font-size: 42px;
-            font-family: 'Courier New', Courier, monospace;
-            // font-family: 'Times New Roman', Times, serif;
+            // font-family: 'Courier New', Courier, monospace;
+            font-family: 'Times New Roman', Times, serif;
             line-height: 1.30952em;
             word-wrap: break-word;
             margin-top: 7rem;
@@ -108,7 +108,8 @@
         p {
             margin-top: 7rem;
             color: #A6A6A6;
-            margin-left: 80px;
+            // margin-left: 80px;
+            margin-left: 13%;
         }
     }
 
@@ -332,8 +333,8 @@
                 align-self: flex-start;
             }
 
-            .price-label{
-                span{
+            .price-label {
+                span {
                     color: #fff;
                     font-size: 17px;
                 }
@@ -342,7 +343,7 @@
 
         }
 
-        
+
 
     }
 
@@ -457,6 +458,7 @@
     }
 
 }
+
 
 #fav-car {
     .background-img {
@@ -683,11 +685,6 @@
 }
 
 
-
-
-
-
-
 #car {
     .car-img {
         width: 100%;
@@ -885,7 +882,6 @@
 }
 
 
-
 #sale {
 
     background-color: #0B1112;
@@ -919,5 +915,290 @@
     }
 
 
+
+}
+
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    // background-color: #00ff00;
+    background-color: #141A1C;
+
+    // background: url('../../img/home/rolls-royce3.jpg');
+    background: url('../../img/home/slider4.jpg');
+    // height: 686px;
+    // background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .form-box {
+        position: relative;
+        width: 400px;
+        height: 450px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+
+        h2 {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+        }
+
+        .inputbox {
+            position: relative;
+            margin: 30px 0;
+            width: 310px;
+            border-bottom: 2px solid #fff;
+
+            label {
+                position: absolute;
+                top: 50%;
+                left: 5px;
+                transform: translateY(-50%);
+                color: #fff;
+                font-size: 1em;
+                pointer-events: none;
+                transition: .5s;
+            }
+
+            input {
+                width: 100%;
+                height: 50px;
+                background: transparent;
+                border: none;
+                outline: none;
+                font-size: 1em;
+                padding: 0 35px 0 5px;
+                color: #fff;
+            }
+
+            i {
+                position: absolute;
+                right: 8px;
+                color: #fff;
+                font-size: 1.2em;
+                top: 20px;
+            }
+
+        }
+
+
+        input:focus~label,
+        input:valid~label {
+            top: -5px;
+        }
+
+
+        .forget {
+            margin: -15px 0 15px;
+            font-size: .9em;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+
+            label {
+
+                input {
+                    margin-right: 3px;
+                }
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    margin-left: 15px;
+                }
+
+            }
+        }
+
+        .forget label a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            border-radius: 40px;
+            background: #fff;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+        }
+
+        .register {
+            font-size: .9em;
+            color: #fff;
+            text-align: center;
+            margin: 25px 0 10px;
+
+            p {
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+
+        }
+
+        .register p a:hover {
+            text-decoration: underline;
+        }
+
+
+
+    }
+
+}
+
+
+#register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    // background-color: #00ff00;
+    background-color: #141A1C;
+
+    // background: url('../../img/home/rolls-royce3.jpg');
+    background: url('../../img/home/slider4.jpg');
+    // height: 686px;
+    // background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .form-box {
+        position: relative;
+        width: 450px;
+        height: 580px;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+
+        h2 {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+        }
+
+        .inputbox {
+            position: relative;
+            margin: 30px 0;
+            width: 310px;
+            border-bottom: 2px solid #fff;
+
+        }
+
+        .inputbox label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            transform: translateY(-50%);
+            color: #fff;
+            font-size: 1em;
+            pointer-events: none;
+            transition: .5s;
+        }
+
+        input:focus~label,
+        input:valid~label {
+            top: -5px;
+        }
+
+        .inputbox input {
+            width: 100%;
+            height: 50px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            padding: 0 35px 0 5px;
+            color: #fff;
+        }
+
+        .inputbox i {
+            position: absolute;
+            right: 8px;
+            color: #fff;
+            font-size: 1.2em;
+            top: 20px;
+        }
+
+        .forget {
+            margin: -15px 0 15px;
+            font-size: .9em;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+
+        .forget label input {
+            margin-right: 3px;
+        }
+
+        .forget label a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .forget label a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            border-radius: 40px;
+            background: #fff;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+        }
+
+        .register {
+            font-size: .9em;
+            color: #fff;
+            text-align: center;
+            margin: 25px 0 10px;
+
+            p {
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+
+        }
+
+        .register p a:hover {
+            text-decoration: underline;
+        }
+
+
+
+    }
 
 }
