@@ -199,157 +199,139 @@ footer #down-footer .footer-bottom-area .content {
   color: #fff;
 }
 
-#about-us .background-img {
-  height: 499px;
-  background-image: url("../../img/about/about-us.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#page-title {
+  background-color: #141A1C;
 }
-#about-us .background-img .title h1 {
-  height: 411px;
+#page-title .content .title {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: end;
+  gap: 4px;
+  padding: 20px 0;
+}
+#page-title .content .title a {
+  text-decoration: none;
   color: #fff;
-  font-weight: 400;
-  font-size: 53px;
+}
+#page-title .content .title span {
+  color: #fff;
 }
 
-#comfort {
-  background-color: #0B1112;
-  display: flex;
-  justify-content: flex-end;
+#blog-detail {
+  background-color: #141A1C;
 }
-#comfort .title h2 {
-  font-size: 42px;
+#blog-detail .blog .title h2 {
+  font-size: 50px;
   padding-top: 5rem;
   font-family: "Times New Roman", Times, serif;
-  color: #fff;
 }
-#comfort .subtitle span {
+#blog-detail .blog .title h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+#blog-detail .blog .subtitle span {
   color: #bfa37c;
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 14px;
   font-family: "Times New Roman", Times, serif;
 }
-#comfort .line {
-  border: 0.25px solid #404040;
-  border-color: #262D33;
-  border-bottom-width: 1px;
-  margin: 15px 0;
-}
-#comfort .widget {
-  padding: 0% 0% 0% 46.5%;
-}
-#comfort .widget h5 {
-  font-size: 22px;
-  margin: 13px 0;
-}
-#comfort .widget p {
-  color: #A6A6A6;
-  margin-bottom: 60px;
-}
-
-#car .car-img {
+#blog-detail .blog .content .img {
   width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 10%;
 }
-#car .car-img img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#question .title h2 {
-  font-size: 42px;
-  padding-top: 5rem;
-  font-family: "Times New Roman", Times, serif;
-}
-#question .subtitle span {
-  color: #bfa37c;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
-}
-#question .line {
-  border: 0.5px solid #958e8e;
-  margin: 20px 0;
-}
-#question .widget {
-  padding: 2% 0% 5% 25.6%;
-}
-#question .content-img {
-  margin-bottom: 7rem;
-}
-#question .content-img .img {
-  width: 100%;
-  height: 501px;
-}
-#question .content-img .img img {
+#blog-detail .blog .content .img img {
   width: 100%;
   height: 100%;
 }
-
-#need {
-  background-color: #141A1C;
-  padding-top: 7rem;
-}
-#need .img {
-  width: 100%;
-  margin-bottom: 7rem;
-}
-#need .img img {
-  width: 100%;
-}
-#need .img2 {
-  width: 100%;
-}
-#need .img2 img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-#need .widget {
-  padding: 5rem;
-}
-#need .widget .title h2 {
+#blog-detail .blog .content .text p {
+  margin: 30px 0;
   color: #fff;
-  font-size: 42px;
-  font-family: "Times New Roman", Times, serif;
 }
-#need .widget .subtitle span {
+#blog-detail .blog .content .widget {
+  color: #fff;
+}
+#blog-detail .blog .content .widget p {
+  margin: 30px 0;
+  font-size: 17px;
+}
+#blog-detail .blog .content .widget .text-box p {
+  font-size: 22px;
+  line-height: 1.45455em;
+  padding: 0 7.4% 0 10%;
+}
+#blog-detail .blog .content .button {
+  margin-bottom: 3rem;
+  position: relative;
+  bottom: 33%;
+}
+#blog-detail .blog .content .button a {
+  border: 1px solid #bfa37c;
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 25px;
   letter-spacing: 0.25em;
-  text-transform: uppercase;
+  position: relative;
   display: inline-flex;
   vertical-align: middle;
-  flex-wrap: wrap;
-  color: #bfa37c;
-}
-#need .widget p {
-  margin: 25px 0 0;
-  color: #A6A6A6;
-}
-#need .widget .items {
-  display: flex;
-  justify-content: space-between;
-}
-#need .widget .items .digit-wrapper {
-  display: flex;
-}
-#need .widget .items span {
-  letter-spacing: 0.03em;
-  font-size: 85px;
+  width: auto;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+  padding: 17px 47px 17px 50px;
   color: #fff;
 }
-#need .widget .items .digit-label {
-  position: relative;
-  font-size: 55px;
+#blog-detail .blog .content .button a span i {
+  margin-right: 5px;
 }
-#need .widget .content .text {
-  margin: 0;
-}/*# sourceMappingURL=about.css.map */
+#blog-detail .recent-post {
+  margin-top: 10rem;
+}
+#blog-detail .recent-post .widget {
+  margin-left: 15%;
+}
+#blog-detail .recent-post .widget h5 {
+  padding-top: 5rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.45455em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+#blog-detail .recent-post .information {
+  display: flex;
+}
+#blog-detail .recent-post .information .media {
+  margin-left: 15%;
+  display: flex;
+}
+#blog-detail .recent-post .information .media .media-img {
+  width: 115px;
+  height: 85px;
+  margin-bottom: 25px;
+}
+#blog-detail .recent-post .information .media .media-img img {
+  width: 100%;
+  height: 100%;
+}
+#blog-detail .recent-post .information .content .text h6 {
+  margin-left: 15px;
+}
+#blog-detail .recent-post .information .content .text h6 a {
+  text-decoration: none;
+  color: #fff;
+}
+#blog-detail .recent-post .information .content .info a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #bfa37c;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}/*# sourceMappingURL=blog-detail.css.map */

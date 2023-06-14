@@ -84,6 +84,7 @@ header .login-register ul li a {
 
 footer #up-footer {
   background-color: #0B1112;
+  border-bottom: 1px solid #2d363e;
 }
 footer #up-footer .content {
   padding: 35px 0;
@@ -126,6 +127,7 @@ footer #up-footer .content .speedometer-img img {
   height: 100%;
 }
 footer #down-footer {
+  padding-top: 3%;
   background-color: #0B1112;
 }
 footer #down-footer .logo-gold {

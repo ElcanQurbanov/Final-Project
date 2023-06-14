@@ -2,6 +2,7 @@ footer {
 
     #up-footer {
         background-color: #0B1112;
+        border-bottom: 1px solid #2d363e;
         // padding-top: 3rem;
         // height: 400px;
 
@@ -10,9 +11,6 @@ footer {
 
             padding: 35px 0;
             // border-bottom: 1px solid #2d363e;
-
-
-
 
             .items {
                 display: flex;
@@ -24,7 +22,6 @@ footer {
                     margin: 0;
                     color: #a6a6a6;
                     font-size: 18px;
-
                 }
 
                 .location-img {
@@ -39,7 +36,6 @@ footer {
                     }
                 }
             }
-
 
 
             .earphone-img {
@@ -68,7 +64,12 @@ footer {
 
     }
 
+
     #down-footer{
+
+        padding-top: 3%;
+        // border-bottom: 1px solid red;
+        // border-top: 1px solid #2d363e;
 
         background-color: #0B1112;
 
@@ -178,6 +179,7 @@ footer {
                 color: #fff;
             }
         }
+        
     }
 
 

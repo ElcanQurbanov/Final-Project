@@ -84,6 +84,7 @@ header .login-register ul li a {
 
 footer #up-footer {
   background-color: #0B1112;
+  border-bottom: 1px solid #2d363e;
 }
 footer #up-footer .content {
   padding: 35px 0;
@@ -126,6 +127,7 @@ footer #up-footer .content .speedometer-img img {
   height: 100%;
 }
 footer #down-footer {
+  padding-top: 3%;
   background-color: #0B1112;
 }
 footer #down-footer .logo-gold {
@@ -324,126 +326,6 @@ footer #down-footer .footer-bottom-area .content {
   color: #fff;
 }
 #blog .recent-post .information .content .info a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #bfa37c;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-#blog-detail {
-  background-color: #141A1C;
-}
-#blog-detail .blog .title h2 {
-  font-size: 50px;
-  padding-top: 5rem;
-  font-family: "Times New Roman", Times, serif;
-}
-#blog-detail .blog .title h2 a {
-  color: #fff;
-  text-decoration: none;
-}
-#blog-detail .blog .subtitle span {
-  color: #bfa37c;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  font-size: 14px;
-  font-family: "Times New Roman", Times, serif;
-}
-#blog-detail .blog .content .img {
-  width: 100%;
-  height: 100%;
-  margin-top: 30px;
-  margin-bottom: 10%;
-}
-#blog-detail .blog .content .img img {
-  width: 100%;
-  height: 100%;
-}
-#blog-detail .blog .content .text p {
-  margin: 30px 0;
-  color: #fff;
-}
-#blog-detail .blog .content .widget {
-  color: #fff;
-}
-#blog-detail .blog .content .widget p {
-  margin: 30px 0;
-  font-size: 17px;
-}
-#blog-detail .blog .content .widget .text-box p {
-  font-size: 22px;
-  line-height: 1.45455em;
-  padding: 0 7.4% 0 10%;
-}
-#blog-detail .blog .content .button {
-  margin-bottom: 3rem;
-  position: relative;
-  bottom: 33%;
-}
-#blog-detail .blog .content .button a {
-  border: 1px solid #bfa37c;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  line-height: 25px;
-  letter-spacing: 0.25em;
-  position: relative;
-  display: inline-flex;
-  vertical-align: middle;
-  width: auto;
-  margin: 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  outline: 0;
-  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
-  padding: 17px 47px 17px 50px;
-  color: #fff;
-}
-#blog-detail .blog .content .button a span i {
-  margin-right: 5px;
-}
-#blog-detail .recent-post {
-  margin-top: 10rem;
-}
-#blog-detail .recent-post .widget {
-  margin-left: 15%;
-}
-#blog-detail .recent-post .widget h5 {
-  padding-top: 5rem;
-  color: #fff;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 1.45455em;
-  margin: 25px 0;
-  -ms-word-wrap: break-word;
-  word-wrap: break-word;
-}
-#blog-detail .recent-post .information {
-  display: flex;
-}
-#blog-detail .recent-post .information .media {
-  margin-left: 15%;
-  display: flex;
-}
-#blog-detail .recent-post .information .media .media-img {
-  width: 115px;
-  height: 85px;
-  margin-bottom: 25px;
-}
-#blog-detail .recent-post .information .media .media-img img {
-  width: 100%;
-  height: 100%;
-}
-#blog-detail .recent-post .information .content .text h6 {
-  margin-left: 15px;
-}
-#blog-detail .recent-post .information .content .text h6 a {
-  text-decoration: none;
-  color: #fff;
-}
-#blog-detail .recent-post .information .content .info a {
   margin-left: 15px;
   text-decoration: none;
   color: #bfa37c;
