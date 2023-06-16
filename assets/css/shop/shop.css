@@ -13,6 +13,8 @@ header #navbar {
 header #navbar .logo {
   width: 121px;
   height: 12px;
+  position: relative;
+  bottom: 3px;
 }
 header #navbar .logo img {
   width: 100%;
@@ -25,30 +27,36 @@ header #navbar .nav-menu .menu {
   list-style: none;
   gap: 35px;
 }
-header #navbar .nav-menu .menu li {
-  position: relative;
-}
 header #navbar .nav-menu .menu li a {
   color: white;
   text-decoration: none;
   font-size: 14px;
-  position: relative;
   font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
 }
 header #navbar .nav-menu .menu li a i {
   transition: 0.3s all;
   color: #fff;
   font-size: 5px;
-  position: absolute;
   opacity: 0;
-  top: 50%;
+}
+header #navbar .nav-menu .menu li a span {
+  transition: 0.3s all;
 }
 header #navbar .nav-menu .menu li a:hover i {
   opacity: 1;
   transform: translateX(-5px);
 }
-header #navbar .nav-menu .menu li a:hover {
-  transform: translateX(5px);
+header #navbar .nav-menu .menu li a:hover span {
+  transform: translateX(6px);
+}
+header #navbar .nav-menu .menu li a .active-icon {
+  opacity: 1;
+  transform: translateX(-5px);
+}
+header #navbar .nav-menu .menu li a .active-word {
+  transform: translateX(6px);
 }
 header #navbar .icons {
   color: #fff;
@@ -59,11 +67,17 @@ header #navbar .icons {
   gap: 26px;
   cursor: pointer;
 }
+header #navbar .icons i {
+  transition: 0.3s all;
+}
+header #navbar .icons i:hover {
+  color: #bfa37c;
+}
 header .login-register {
   width: 100px;
   background-color: #141A1C;
   position: absolute;
-  top: 2.5rem;
+  top: 3.5rem;
   right: 3rem;
   z-index: 2;
   padding: 10px 0 0 20px;
@@ -222,8 +236,11 @@ footer #down-footer .footer-bottom-area .content {
 #shop .products {
   padding-top: 5rem;
 }
+#shop .products .result-count {
+  display: flex;
+  justify-content: space-between;
+}
 #shop .products .result-count p {
-  margin-bottom: 3rem;
   color: #fff;
 }
 #shop .products .product-list .product-info .product-img {

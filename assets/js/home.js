@@ -15,3 +15,18 @@ $(".slider").on("click", function () {
 $(".slider").on("mouseover", function () {
   $(".slider").slick("slickPlay");
 })
+
+
+window.addEventListener("scroll", function () {
+  let scrollPosition = window.pageYOffset;
+
+  if (scrollPosition > 800) {
+
+    document.getElementById("navbar").style.backgroundColor = "black";
+
+  }
+  else{
+    document.getElementById("navbar").style.backgroundColor = "transparent";
+  }
+  
+})

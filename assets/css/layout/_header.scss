@@ -22,6 +22,8 @@ header {
 
             width: 121px;
             height: 12px;
+            position: relative;
+            bottom: 3px;
             // margin-top: 15px;
 
             img {
@@ -44,35 +46,48 @@ header {
 
                 li {
 
-                    position: relative;
+                    // position: relative;
 
 
                     a {
                         color: white;
                         text-decoration: none;
                         font-size: 14px;
-                        position: relative;
+                        // position: relative;
                         font-family: 'Times New Roman', Times, serif;
+                        display: flex;
+                        align-items: center;
                         // margin-left: 5px;
 
                         i {
                             transition: 0.3s all;
                             color: #fff;
                             font-size: 5px;
-                            position: absolute;
+                            // position: absolute;
                             opacity: 0;
-                            top: 50%;
+                            // top: 50%;
+                        }
+
+                        span {
+                            transition: 0.3s all;
                         }
 
                         &:hover i {
                             opacity: 1;
                             transform: translateX(-5px);
-
-
                         }
 
-                        &:hover {
-                            transform: translateX(5px);
+                        &:hover span {
+                            transform: translateX(6px);
+                        }
+
+                        .active-icon{
+                            opacity: 1;
+                            transform: translateX(-5px);
+                        }
+
+                        .active-word {
+                            transform: translateX(6px);
                         }
                     }
                 }
@@ -88,6 +103,14 @@ header {
             align-items: center;
             gap: 26px;
             cursor: pointer;
+
+            i {
+                transition: 0.3s all;
+
+                &:hover{
+                    color: #bfa37c;
+                }
+            }
         }
 
         // .basket-number {
@@ -118,7 +141,7 @@ header {
         position: absolute;
         // top: 44px;
         // right: 45px;
-        top: 2.5rem;
+        top: 3.5rem;
         right: 3rem;
         z-index: 2;
         // padding-left: 20px;

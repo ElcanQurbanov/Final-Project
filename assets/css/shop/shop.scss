@@ -37,10 +37,19 @@
         padding-top: 5rem;
 
         .result-count {
+
+            display: flex;
+            justify-content: space-between;
+            // outline: none;
+            // border: none;
+
             p {
-                margin-bottom: 3rem;
+                // margin-bottom: 3rem;
                 color: #fff;
             }
+
+
+
         }
 
         .product-list {
