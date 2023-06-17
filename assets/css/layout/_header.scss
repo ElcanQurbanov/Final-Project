@@ -74,20 +74,24 @@ header {
 
                         &:hover i {
                             opacity: 1;
-                            transform: translateX(-5px);
+                            // transform: translateX(-5px);
+                            color: #bfa37c;
                         }
 
-                        &:hover span {
-                            transform: translateX(6px);
-                        }
+                            &:hover span {
+                                transform: translateX(10px);
+                                color: #bfa37c;
+                            }
 
                         .active-icon{
                             opacity: 1;
-                            transform: translateX(-5px);
+                            // transform: translateX(-5px);
+                            color: #bfa37c;
                         }
 
                         .active-word {
-                            transform: translateX(6px);
+                            transform: translateX(7px);
+                            color: #bfa37c;
                         }
                     }
                 }
@@ -108,6 +112,7 @@ header {
                 transition: 0.3s all;
 
                 &:hover{
+                    // color: #eead51;
                     color: #bfa37c;
                 }
             }
@@ -136,14 +141,14 @@ header {
 
     .login-register {
 
-        width: 100px;
+        width: 110px;
         background-color: #141A1C;
         position: absolute;
         // top: 44px;
         // right: 45px;
-        top: 3.5rem;
+        top: 4rem;
         right: 3rem;
-        z-index: 2;
+        z-index: 1;
         // padding-left: 20px;
         // padding-top: 10px;
         padding: 10px 0 0 20px;

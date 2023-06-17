@@ -46,17 +46,19 @@ header #navbar .nav-menu .menu li a span {
 }
 header #navbar .nav-menu .menu li a:hover i {
   opacity: 1;
-  transform: translateX(-5px);
+  color: #bfa37c;
 }
 header #navbar .nav-menu .menu li a:hover span {
-  transform: translateX(6px);
+  transform: translateX(10px);
+  color: #bfa37c;
 }
 header #navbar .nav-menu .menu li a .active-icon {
   opacity: 1;
-  transform: translateX(-5px);
+  color: #bfa37c;
 }
 header #navbar .nav-menu .menu li a .active-word {
-  transform: translateX(6px);
+  transform: translateX(7px);
+  color: #bfa37c;
 }
 header #navbar .icons {
   color: #fff;
@@ -74,12 +76,12 @@ header #navbar .icons i:hover {
   color: #bfa37c;
 }
 header .login-register {
-  width: 100px;
+  width: 110px;
   background-color: #141A1C;
   position: absolute;
-  top: 3.5rem;
+  top: 4rem;
   right: 3rem;
-  z-index: 2;
+  z-index: 1;
   padding: 10px 0 0 20px;
   border-radius: 5px;
 }
@@ -189,6 +191,33 @@ footer #down-footer .nav .nav-menu .footer-menu ul li a {
   line-height: 40px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+footer #down-footer .nav .nav-menu .footer-menu ul li a i {
+  transition: 0.3s all;
+  color: #fff;
+  font-size: 5px;
+  opacity: 0;
+}
+footer #down-footer .nav .nav-menu .footer-menu ul li a span {
+  transition: 0.3s all;
+}
+footer #down-footer .nav .nav-menu .footer-menu ul li a:hover i {
+  opacity: 1;
+  color: #bfa37c;
+}
+footer #down-footer .nav .nav-menu .footer-menu ul li a:hover span {
+  transform: translateX(10px);
+  color: #bfa37c;
+}
+footer #down-footer .nav .nav-menu .footer-menu ul li a .active-icon {
+  opacity: 1;
+  color: #bfa37c;
+}
+footer #down-footer .nav .nav-menu .footer-menu ul li a .active-word {
+  transform: translateX(6px);
+  color: #bfa37c;
 }
 footer #down-footer .nav .nav-menu .footer-menu-2 ul {
   padding: 0;

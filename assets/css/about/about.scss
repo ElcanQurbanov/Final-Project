@@ -6,15 +6,16 @@
 
     .background-img{
         height: 499px;
-        background-image: url("../../img/about/about-us.jpg");
-        background-position: center center;
+        // background-image: url("../../img/about/about-us.jpg");
+        background-image: url('../../img/about/about-us2.jpg');
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
 
         .title {
 
             h1 {
-                height: 411px;
+                height: 466px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
