@@ -75,6 +75,45 @@ header #navbar .icons i {
 header #navbar .icons i:hover {
   color: #bfa37c;
 }
+header #navbar .icons a i {
+  color: #fff;
+}
+header #navbar .icons .search {
+  position: relative;
+}
+header #navbar .icons .search .search-input {
+  position: absolute;
+  height: 50px;
+  width: 240px;
+  bottom: -70px;
+  right: 10px;
+  transition: 0.3s all;
+  opacity: 0;
+  pointer-events: none;
+}
+header #navbar .icons .search .search-input input {
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: #141A1C;
+  color: #fff;
+  border-radius: 5px;
+}
+header #navbar .icons .search .search-input input::-moz-placeholder {
+  color: #fff;
+}
+header #navbar .icons .search .search-input input::placeholder {
+  color: #fff;
+}
+header #navbar .icons .search .search-input i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
 header .login-register {
   width: 110px;
   background-color: #141A1C;
@@ -242,15 +281,45 @@ footer #down-footer .footer-bottom-area .content {
   color: #fff;
 }
 
+#up {
+  position: fixed;
+  bottom: 125px;
+  right: 30px;
+  color: #bfa37c;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s all;
+  opacity: 0;
+  pointer-events: none;
+}
+#up:hover span {
+  transform: translateX(-6px);
+}
+#up span {
+  letter-spacing: 3px;
+  margin-right: 7px;
+  transition: 0.5s all;
+}
+#up i {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #bfa37c;
+}
+
 #contact-us .contact-us-img {
-  background-image: url("../../img/contact/contact-us4.jpg");
-  height: 605px;
+  background: url("../../img/contact/contact-us5.jpg");
+  height: 555px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #contact-us .contact-us-img .title h1 {
-  height: 557px;
+  height: 582px;
   display: flex;
   align-items: center;
   justify-content: center;

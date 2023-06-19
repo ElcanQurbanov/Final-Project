@@ -75,6 +75,45 @@ header #navbar .icons i {
 header #navbar .icons i:hover {
   color: #bfa37c;
 }
+header #navbar .icons a i {
+  color: #fff;
+}
+header #navbar .icons .search {
+  position: relative;
+}
+header #navbar .icons .search .search-input {
+  position: absolute;
+  height: 50px;
+  width: 240px;
+  bottom: -70px;
+  right: 10px;
+  transition: 0.3s all;
+  opacity: 0;
+  pointer-events: none;
+}
+header #navbar .icons .search .search-input input {
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: #141A1C;
+  color: #fff;
+  border-radius: 5px;
+}
+header #navbar .icons .search .search-input input::-moz-placeholder {
+  color: #fff;
+}
+header #navbar .icons .search .search-input input::placeholder {
+  color: #fff;
+}
+header #navbar .icons .search .search-input i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
 header .login-register {
   width: 110px;
   background-color: #141A1C;

@@ -179,6 +179,16 @@
     }
 
     .product {
+        position: relative;
+
+        &:hover .product-img img {
+            opacity: 0.2;
+        }
+
+        &:hover .image-inner {
+            opacity: 1;
+            transform: unset;
+        }
 
         .title {
             h2 {
@@ -239,9 +249,14 @@
             width: 416.66px;
             height: 573.4px;
             margin-top: 5rem;
+            text-decoration: none;
+            display: block;
 
             img {
                 width: 100%;
+                // height: 100%;
+                object-fit: cover;
+                transition: 0.6s all;
             }
         }
 
@@ -250,65 +265,72 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
+            // width: 100%;
+            // height: 100%;
+            // display: flex;
+            display: block;
             padding: 30px 20%;
-            flex-direction: column;
-            justify-content: center;
+            // flex-direction: column;
+            // justify-content: center;
             opacity: 0;
-            transition: opacity .6s ease;
-            pointer-events: none;
+            transition: 0.6s all ease;
+            transform: translateY(35px);
+            top: 18%;
 
             a {
                 color: #fff;
                 pointer-events: all;
+                transition-delay: 0.2s;
+                text-decoration: none;
 
                 h4 {
                     margin: 0;
-                    opacity: 0;
-                    transform: translateY(20px);
-                    transition: .6s ease;
+                    font-weight: 400;
+                    // font-family: 'Times New Roman', Times, serif;
+                    font-size: 28px;
+                    line-height: 1.42857em;
+                    margin: 25px 0;
+                    -ms-word-wrap: break-word;
+                    word-wrap: break-word;
                 }
             }
 
             .price-info {
-                margin-top: 14px;
-                opacity: 0;
-                transform: translateY(20px);
-                transition: .6s ease;
+                // margin-top: 14px;
+                transition-delay: 0.4s;
 
                 .price {
                     display: flex;
                     align-items: flex-end;
 
+                    span {
+                        &:nth-child(3) {
+                            font-size: 40px;
+                            color: #bfa37c;
+                            // display: inline-flex;
+                            line-height: 1;
+                        }
+                    }
+
                     .currency {
                         color: #bfa37c;
                         display: inline-flex;
-                        font-size: 40px;
-                        line-height: 1;
+                        align-self: flex-start;
+                        font-size: 20px;
                     }
 
                     .price-label {
                         color: #bfa37c;
                     }
 
-
                 }
 
-                .description {
-                    margin-top: 33px;
-                    opacity: 0;
-                    transform: translateY(30px);
-                    transition: .6s ease;
-                }
+            }
 
-                .image-overlay {
-                    // display: flex;
-                    background-color: rgba(12, 19, 21, .85);
-                    z-index: 0 !important;
-                }
 
+            .description {
+                margin-top: 33px;
+                transition-delay: 0.5s;
             }
 
         }
@@ -431,13 +453,22 @@
 
     .car-img {
         width: 309.71px;
-        height: 541.96px;
+        height: 0;
         margin: 40px 0;
+        transition: 2s all;
+        overflow: hidden;
 
-        // justify-content: space-between !important;
         img {
             width: 100%;
             object-fit: cover;
+        }
+
+        &-left {
+            transition: 1.5s;
+        }
+
+        &-right {
+            transition: 2.5s;
         }
     }
 
@@ -544,10 +575,12 @@
             width: 305.5px;
             height: 449.44px;
             margin: 20px 0;
+           
 
             img {
                 width: 100%;
                 height: 100%;
+                object-fit: cover;
             }
         }
 
@@ -583,9 +616,13 @@
     .img {
         width: 100%;
         margin-bottom: 7rem;
+        transition: 2s all;
+        overflow: hidden;
 
         img {
             width: 100%;
+            // height: 100%;
+            object-fit: cover;
         }
     }
 
@@ -594,6 +631,7 @@
 
         img {
             width: 100%;
+            // height: 100%;
             object-fit: cover;
         }
     }

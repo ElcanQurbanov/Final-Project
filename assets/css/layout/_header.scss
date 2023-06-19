@@ -78,12 +78,12 @@ header {
                             color: #bfa37c;
                         }
 
-                            &:hover span {
-                                transform: translateX(10px);
-                                color: #bfa37c;
-                            }
+                        &:hover span {
+                            transform: translateX(10px);
+                            color: #bfa37c;
+                        }
 
-                        .active-icon{
+                        .active-icon {
                             opacity: 1;
                             // transform: translateX(-5px);
                             color: #bfa37c;
@@ -111,11 +111,67 @@ header {
             i {
                 transition: 0.3s all;
 
-                &:hover{
+                &:hover {
                     // color: #eead51;
                     color: #bfa37c;
                 }
             }
+
+            a {
+                i {
+                    color: #fff;
+                }
+            }
+
+            .search {
+                position: relative;
+                
+
+
+                .search-input {
+                    position: absolute;
+                    height: 50px;
+                    width: 240px;
+                    bottom: -70px;
+                    right: 10px;
+                    transition: 0.3s all;
+                    opacity: 0;
+                    pointer-events: none;
+                    // padding: 20px;
+                   
+                    input {
+                        outline: none;
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        //  border: 1px solid red;
+                        // border-bottom: 1px solid white;  
+                        padding-left: 20px;
+                        padding-right: 40px;
+                        background-color: #141A1C;
+                        color: #fff;
+                        border-radius: 5px;
+
+
+                        &::placeholder {
+                            color: #fff;
+                        }
+
+                    }
+
+                    i {
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        right: 15px;
+                    }
+
+                }
+
+
+            }
+
+
         }
 
         // .basket-number {
@@ -137,7 +193,7 @@ header {
         // }
 
     }
-    
+
 
     .login-register {
 
@@ -162,7 +218,7 @@ header {
                 list-style: none;
                 height: 30px;
 
-                a{
+                a {
                     text-decoration: none;
                     color: white;
                     cursor: pointer;

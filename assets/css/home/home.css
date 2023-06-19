@@ -75,6 +75,45 @@ header #navbar .icons i {
 header #navbar .icons i:hover {
   color: #bfa37c;
 }
+header #navbar .icons a i {
+  color: #fff;
+}
+header #navbar .icons .search {
+  position: relative;
+}
+header #navbar .icons .search .search-input {
+  position: absolute;
+  height: 50px;
+  width: 240px;
+  bottom: -70px;
+  right: 10px;
+  transition: 0.3s all;
+  opacity: 0;
+  pointer-events: none;
+}
+header #navbar .icons .search .search-input input {
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: #141A1C;
+  color: #fff;
+  border-radius: 5px;
+}
+header #navbar .icons .search .search-input input::-moz-placeholder {
+  color: #fff;
+}
+header #navbar .icons .search .search-input input::placeholder {
+  color: #fff;
+}
+header #navbar .icons .search .search-input i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+}
 header .login-register {
   width: 110px;
   background-color: #141A1C;
@@ -366,6 +405,16 @@ footer #down-footer .footer-bottom-area .content {
   letter-spacing: 0.25em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+#product .product {
+  position: relative;
+}
+#product .product:hover .product-img img {
+  opacity: 0.2;
+}
+#product .product:hover .image-inner {
+  opacity: 1;
+  transform: unset;
+}
 #product .product .title h2 {
   color: #fff;
   font-weight: 400;
@@ -405,63 +454,66 @@ footer #down-footer .footer-bottom-area .content {
   width: 416.66px;
   height: 573.4px;
   margin-top: 5rem;
+  text-decoration: none;
+  display: block;
 }
 #product .product .product-img img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.6s all;
 }
 #product .product .image-inner {
   color: #a6a6a6;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
+  display: block;
   padding: 30px 20%;
-  flex-direction: column;
-  justify-content: center;
   opacity: 0;
-  transition: opacity 0.6s ease;
-  pointer-events: none;
+  transition: 0.6s all ease;
+  transform: translateY(35px);
+  top: 18%;
 }
 #product .product .image-inner a {
   color: #fff;
   pointer-events: all;
+  transition-delay: 0.2s;
+  text-decoration: none;
 }
 #product .product .image-inner a h4 {
   margin: 0;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: 0.6s ease;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.42857em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 #product .product .image-inner .price-info {
-  margin-top: 14px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: 0.6s ease;
+  transition-delay: 0.4s;
 }
 #product .product .image-inner .price-info .price {
   display: flex;
   align-items: flex-end;
 }
+#product .product .image-inner .price-info .price span:nth-child(3) {
+  font-size: 40px;
+  color: #bfa37c;
+  line-height: 1;
+}
 #product .product .image-inner .price-info .price .currency {
   color: #bfa37c;
   display: inline-flex;
-  font-size: 40px;
-  line-height: 1;
+  align-self: flex-start;
+  font-size: 20px;
 }
 #product .product .image-inner .price-info .price .price-label {
   color: #bfa37c;
 }
-#product .product .image-inner .price-info .description {
+#product .product .image-inner .description {
   margin-top: 33px;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: 0.6s ease;
-}
-#product .product .image-inner .price-info .image-overlay {
-  background-color: rgba(12, 19, 21, 0.85);
-  z-index: 0 !important;
+  transition-delay: 0.5s;
 }
 #product .product .content {
   display: flex;
@@ -542,13 +594,21 @@ footer #down-footer .footer-bottom-area .content {
 }
 #guarantee .car-img {
   width: 309.71px;
-  height: 541.96px;
+  height: 0;
   margin: 40px 0;
+  transition: 2s all;
+  overflow: hidden;
 }
 #guarantee .car-img img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+#guarantee .car-img-left {
+  transition: 1.5s;
+}
+#guarantee .car-img-right {
+  transition: 2.5s;
 }
 
 #fav-car .background-img {
@@ -626,6 +686,8 @@ footer #down-footer .footer-bottom-area .content {
 #team .persons .person-img img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #team .persons .content h5 {
   font-size: 22px;
@@ -647,9 +709,13 @@ footer #down-footer .footer-bottom-area .content {
 #premium-rental .img {
   width: 100%;
   margin-bottom: 7rem;
+  transition: 2s all;
+  overflow: hidden;
 }
 #premium-rental .img img {
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #premium-rental .img2 {
   width: 100%;

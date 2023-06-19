@@ -1,14 +1,16 @@
 @use "../layout/header";
 @use "../layout/footer";
+@use "../layout/up";
 
 #contact-us {
 
     .contact-us-img {
         // background-image: url("../../img/contact/contact-us.jpg");
         // background-image: url('../../img/contact/edit.jpg');
-        background-image: url('../../img/contact/contact-us4.jpg');
+        // background-image: url('../../img/contact/contact-us4.jpg');
+        background: url('../../img/contact/contact-us5.jpg');
         // background-image: url('../../img/contact/5a277373-6193-4e87-861c-0717f6e8be27.webp');
-        height: 605px;
+        height: 555px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -17,7 +19,7 @@
         .title {
 
             h1 {
-                height: 557px;
+                height: 582px;
                 display: flex;
                 align-items: center;
                 justify-content: center;

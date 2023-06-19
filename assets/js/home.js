@@ -25,8 +25,35 @@ window.addEventListener("scroll", function () {
     document.getElementById("navbar").style.backgroundColor = "black";
 
   }
-  else{
+  else {
     document.getElementById("navbar").style.backgroundColor = "transparent";
   }
-  
+
 })
+
+
+window.addEventListener("scroll", function () {
+  let scrollposition = window.pageYOffset;
+
+  if (scrollposition > 2875) {
+    let carImages = document.querySelectorAll("#guarantee .car-img");
+
+    for (const carImage of carImages) {
+      carImage.style.height = "541.96px";
+    }
+  }
+});
+
+window.addEventListener("scroll", function () {
+  let scrollposition = window.pageYOffset;
+  console.log(scrollposition);
+
+  if (scrollposition > 5200) {
+    let rentalImages = document.querySelectorAll("#premium-rental .img");
+
+    for (const rentalImage of rentalImages) {
+      rentalImage.style.height = "448.56px";
+    }
+  }
+});
+
