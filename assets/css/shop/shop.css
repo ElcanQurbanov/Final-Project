@@ -96,6 +96,7 @@ header #navbar .icons .search .search-input input {
   width: 100%;
   height: 100%;
   border: none;
+  border: 1px solid;
   padding-left: 20px;
   padding-right: 40px;
   background-color: #141A1C;
@@ -341,6 +342,16 @@ footer #down-footer .footer-bottom-area .content {
 #shop .products .result-count p {
   color: #fff;
 }
+#shop .products .product-list .product-info {
+  position: relative;
+}
+#shop .products .product-list .product-info:hover .product-img img {
+  opacity: 0.2;
+}
+#shop .products .product-list .product-info:hover .image-inner {
+  opacity: 1;
+  transform: unset;
+}
 #shop .products .product-list .product-info .product-img {
   margin-bottom: 20px;
   margin-top: 3rem;
@@ -350,6 +361,9 @@ footer #down-footer .footer-bottom-area .content {
 #shop .products .product-list .product-info .product-img img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.6s all;
 }
 #shop .products .product-list .product-info .content .top-holder {
   display: flex;
@@ -378,6 +392,39 @@ footer #down-footer .footer-bottom-area .content {
   color: #bfa37c;
   text-decoration: none;
   margin-bottom: 5rem;
+}
+#shop .products .product-list .product-info .image-inner {
+  color: #a6a6a6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 30px 20%;
+  opacity: 0;
+  transition: 0.6s all ease;
+  transform: translateY(35px);
+  top: 30%;
+}
+#shop .products .product-list .product-info .image-inner .button a {
+  border: 1px solid #bfa37c;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.25em;
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  width: auto;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+  padding: 17px 35px 17px 35px;
+  color: #fff;
+}
+#shop .products .product-list .product-info .image-inner .button a span i {
+  margin-right: 5px;
 }
 #shop .popular-product {
   margin-top: 5rem;
