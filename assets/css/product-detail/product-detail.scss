@@ -179,6 +179,60 @@
                 }
             }
 
+        }
+
+        .rezerv {
+
+            margin-top: 3rem;
+            // display: flex;
+            // flex-direction: column;
+            // display: grid;
+            display: inline-grid;
+
+            label{
+                color: #fff;
+                padding: 7px 12px;
+            }
+
+            input {
+                outline: none;
+                height: 34px;
+                padding: 6px 12px;
+                background-color: #fff;
+                background-image: none;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+        }
+
+
+        .button {
+            a {
+                border: 1px solid #bfa37c;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 14px;
+                line-height: 25px;
+                letter-spacing: .25em;
+                position: relative;
+                display: inline-flex;
+                vertical-align: middle;
+                width: auto;
+                margin: 0;
+                text-decoration: none;
+                text-transform: uppercase;
+                outline: 0;
+                transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+                padding: 17px 35px 17px 35px;
+                color: #fff;
+                margin-top: 3rem;
+
+                span {
+                    i {
+                        margin-right: 5px;
+                    }
+                }
+
+            }
 
         }
 
@@ -275,7 +329,7 @@
         .button {
 
             button {
-                border: 2px solid #bfa37c;
+                border: 3px solid #bfa37c;
                 // border: 2px solid #0b45b8;;
                 background-color: #141A1C;
                 font-family: 'Times New Roman', Times, serif;
@@ -302,7 +356,7 @@
 
             }
         }
-        
+
 
         // button {
         //     width: 210px;

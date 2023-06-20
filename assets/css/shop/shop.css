@@ -342,6 +342,10 @@ footer #down-footer .footer-bottom-area .content {
 #shop .products .result-count p {
   color: #fff;
 }
+#shop .products .result-count select {
+  outline: none;
+  padding: 5px 10px 5px 10px;
+}
 #shop .products .product-list .product-info {
   position: relative;
 }

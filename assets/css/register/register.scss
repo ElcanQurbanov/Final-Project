@@ -1,5 +1,6 @@
 @use "../layout/header";
 @use "../layout/footer";
+// @use "../components/transparent-header";
 
 #register {
     display: flex;
@@ -19,7 +20,7 @@
     .form-box {
         position: relative;
         width: 450px;
-        height: 580px;
+        height: 620px;
         background: transparent;
         display: flex;
         justify-content: center;
