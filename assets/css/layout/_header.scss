@@ -3,7 +3,7 @@
 // }
 
 header {
-
+    
     position: sticky;
     top: 0;
     // bottom: 0;
@@ -17,6 +17,8 @@ header {
         display: flex;
         align-items: center;
         // justify-content: space-between;
+
+        
 
         .logo {
 
@@ -43,6 +45,11 @@ header {
                 height: 100%;
                 list-style: none;
                 gap: 35px;
+
+               .bars i{
+                display: none;
+               }
+              
 
                 li {
 

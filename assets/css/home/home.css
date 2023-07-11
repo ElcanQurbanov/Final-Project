@@ -27,6 +27,9 @@ header #navbar .nav-menu .menu {
   list-style: none;
   gap: 35px;
 }
+header #navbar .nav-menu .menu .bars i {
+  display: none;
+}
 header #navbar .nav-menu .menu li a {
   color: white;
   text-decoration: none;
@@ -321,6 +324,10 @@ footer #down-footer .footer-bottom-area .content {
   border: 2px solid #bfa37c;
 }
 
+body {
+  background-color: #141A1C;
+}
+
 #page-title {
   background-color: #141A1C;
 }
@@ -367,7 +374,7 @@ footer #down-footer .footer-bottom-area .content {
 
 #product {
   background-color: #141A1C;
-  height: 1800px;
+  margin-bottom: 7rem;
 }
 #product .product-title .title h2 {
   color: #fff;
@@ -453,13 +460,14 @@ footer #down-footer .footer-bottom-area .content {
 }
 #product .product .product-img {
   width: 416.66px;
-  height: 573.4px;
+  height: 533.4px;
   margin-top: 5rem;
   text-decoration: none;
   display: block;
 }
 #product .product .product-img img {
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: 0.6s all;
@@ -517,6 +525,7 @@ footer #down-footer .footer-bottom-area .content {
   transition-delay: 0.5s;
 }
 #product .product .content {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -605,11 +614,8 @@ footer #down-footer .footer-bottom-area .content {
   -o-object-fit: cover;
      object-fit: cover;
 }
-#guarantee .car-img-left {
-  transition: 1.5s;
-}
-#guarantee .car-img-right {
-  transition: 2.5s;
+#guarantee .right {
+  transition-delay: 0.6s;
 }
 
 #fav-car .background-img {
@@ -657,7 +663,6 @@ footer #down-footer .footer-bottom-area .content {
 #team {
   background-color: #0B1112;
   padding-top: 5%;
-  height: 820px;
 }
 #team .title h2 {
   font-size: 42px;
@@ -693,6 +698,9 @@ footer #down-footer .footer-bottom-area .content {
 #team .persons .content h5 {
   font-size: 22px;
 }
+#team .persons .content .icon {
+  margin-bottom: 5rem;
+}
 #team .persons .content .icon span {
   font-family: "Times New Roman", Times, serif;
   font-size: 14px;
@@ -706,12 +714,13 @@ footer #down-footer .footer-bottom-area .content {
 #premium-rental {
   background-color: #141A1C;
   padding-top: 7%;
+  margin-bottom: 7rem;
 }
 #premium-rental .img {
   width: 100%;
-  margin-bottom: 7rem;
   transition: 2s all;
   overflow: hidden;
+  height: 0;
 }
 #premium-rental .img img {
   width: 100%;
@@ -720,6 +729,10 @@ footer #down-footer .footer-bottom-area .content {
 }
 #premium-rental .img2 {
   width: 100%;
+  transition: 2s all;
+  overflow: hidden;
+  height: 0;
+  transition-delay: 0.6s;
 }
 #premium-rental .img2 img {
   width: 100%;
@@ -779,7 +792,6 @@ footer #down-footer .footer-bottom-area .content {
 #best-possibilities {
   background-color: #0B1112;
   padding-top: 5%;
-  height: 1100px;
 }
 #best-possibilities .title h2 {
   color: #fff;

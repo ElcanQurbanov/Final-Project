@@ -27,6 +27,9 @@ header #navbar .nav-menu .menu {
   list-style: none;
   gap: 35px;
 }
+header #navbar .nav-menu .menu .bars i {
+  display: none;
+}
 header #navbar .nav-menu .menu li a {
   color: white;
   text-decoration: none;

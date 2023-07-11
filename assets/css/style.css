@@ -1,0 +1,9 @@
+
+@media (max-width:830px){
+    .nav-menu ul{
+        display: none;
+    }
+    .nav-menu button{
+        display: flex;
+    }
+ }

@@ -49,9 +49,12 @@
                 color: #fff;
             }
 
-            select{
+            select {
                 outline: none;
                 padding: 5px 10px 5px 10px;
+                background-color: #141A1C;
+                color: white;
+                border: 1px solid #bfa37c;
             }
 
 
@@ -67,7 +70,7 @@
                 &:hover .product-img img {
                     opacity: 0.2;
                 }
-    
+
                 &:hover .image-inner {
                     opacity: 1;
                     transform: unset;
@@ -149,7 +152,7 @@
                     transition: 0.6s all ease;
                     transform: translateY(35px);
                     top: 30%;
-        
+
                     .button {
                         a {
                             border: 1px solid #bfa37c;
@@ -168,17 +171,17 @@
                             transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
                             padding: 17px 35px 17px 35px;
                             color: #fff;
-        
+
                             span {
                                 i {
                                     margin-right: 5px;
                                 }
                             }
-        
+
                         }
 
                     }
-        
+
                 }
 
             }
@@ -188,7 +191,7 @@
     }
 
 
-    .popular-product {
+    .recent-post {
 
         margin-top: 5rem;
 
@@ -198,7 +201,7 @@
 
             h5 {
                 // margin-bottom: 25px;
-                padding-top: 7rem;
+                padding-top: 6rem;
                 color: #fff;
                 font-weight: 400;
                 font-family: 'Times New Roman', Times, serif;
